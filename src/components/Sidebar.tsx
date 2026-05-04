@@ -39,12 +39,8 @@ export default function Sidebar({ isOpen, onToggle }: SidebarProps) {
       </button>
 
       {/* Sidebar */}
-      <motion.aside
-        initial={false}
-        animate={{ x: isOpen ? 0 : -280 }}
-        transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-        className={`fixed top-0 left-0 h-full w-[260px] glass-sidebar z-50 flex flex-col py-8 px-4 lg:translate-x-0`}
-        style={{ transform: undefined }}
+      <aside
+        className={`fixed top-0 left-0 h-full w-[260px] glass-sidebar z-50 flex flex-col py-8 px-4 transition-transform duration-300 lg:translate-x-0 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
       >
         <motion.div
           initial={{ opacity: 0 }}
@@ -95,7 +91,7 @@ export default function Sidebar({ isOpen, onToggle }: SidebarProps) {
             </div>
           </div>
         </div>
-      </motion.aside>
+      </aside>
     </>
   )
 }
