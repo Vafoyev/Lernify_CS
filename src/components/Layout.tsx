@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import Sidebar from './Sidebar'
 import ParticlesBackground from './ParticlesBackground'
 
 export default function Layout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
-
+  const location = useLocation()
   return (
     <div className="min-h-screen bg-cyber-900 relative">
       <ParticlesBackground />

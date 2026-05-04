@@ -1,17 +1,21 @@
-import { useCallback } from 'react'
-import Particles from '@tsparticles/react'
+import { useEffect, useState } from 'react'
+import Particles, { initParticlesEngine } from '@tsparticles/react'
 import { loadSlim } from '@tsparticles/slim'
-import type { Engine } from '@tsparticles/engine'
 
 export default function ParticlesBackground() {
-  const particlesInit = useCallback(async (engine: Engine) => {
-    await loadSlim(engine)
+  const [init, setInit] = useState(false)
+
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine)
+    }).then(() => setInit(true))
   }, [])
+
+  if (!init) return null
 
   return (
     <Particles
       id="tsparticles"
-      init={particlesInit}
       options={{
         fullScreen: { enable: false },
         background: { color: { value: 'transparent' } },
@@ -19,7 +23,7 @@ export default function ParticlesBackground() {
         interactivity: {
           events: {
             onHover: { enable: true, mode: 'grab' },
-            resize: { enable: true },
+            resize: { enable: true } as any,
           },
           modes: {
             grab: { distance: 180, links: { opacity: 0.4 } },
@@ -37,8 +41,8 @@ export default function ParticlesBackground() {
           move: {
             enable: true,
             speed: 0.8,
-            direction: 'none',
-            outModes: { default: 'bounce' },
+            direction: 'none' as const,
+            outModes: { default: 'bounce' as const },
           },
           number: {
             density: { enable: true, width: 1920, height: 1080 },
