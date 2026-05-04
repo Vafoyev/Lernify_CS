@@ -1,0 +1,106 @@
+import { motion } from 'framer-motion'
+import { Play, Terminal, FileCode, FolderOpen } from 'lucide-react'
+
+const sampleCode = `// Welcome to Learnify CS Code Lab
+function fibonacci(n) {
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+// Calculate first 10 fibonacci numbers
+for (let i = 0; i < 10; i++) {
+  console.log(\`fib(\${i}) = \${fibonacci(i)}\`);
+}
+
+// Output:
+// fib(0) = 0
+// fib(1) = 1
+// fib(2) = 1
+// fib(3) = 2
+// fib(4) = 3
+// fib(5) = 5
+// fib(6) = 8
+// fib(7) = 13
+// fib(8) = 21
+// fib(9) = 34`
+
+const files = ['main.js', 'utils.js', 'algorithms.js', 'data-structures.js', 'README.md']
+
+export default function CodeLab() {
+  return (
+    <div className="space-y-6">
+      <div>
+        <motion.h1 initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="text-3xl font-extrabold">
+          <span className="cyber-gradient-text">Code Lab</span>
+        </motion.h1>
+        <p className="text-white/40 text-sm mt-1">Practice coding in your browser</p>
+      </div>
+
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="glass-panel overflow-hidden">
+        {/* Editor Toolbar */}
+        <div className="flex items-center justify-between px-4 py-3 border-b border-white/[0.06] bg-white/[0.02]">
+          <div className="flex items-center gap-2">
+            <div className="flex gap-1.5">
+              <div className="w-3 h-3 rounded-full bg-red-500/60" />
+              <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
+              <div className="w-3 h-3 rounded-full bg-green-500/60" />
+            </div>
+            <span className="text-xs text-white/30 ml-3 font-mono">main.js</span>
+          </div>
+          <button className="btn-cyber text-xs py-1.5 px-4 flex items-center gap-1.5">
+            <Play size={12} /> Run
+          </button>
+        </div>
+
+        <div className="flex">
+          {/* File Explorer */}
+          <div className="w-48 border-r border-white/[0.06] p-3 hidden md:block">
+            <div className="flex items-center gap-2 text-xs text-white/40 mb-3">
+              <FolderOpen size={14} /> <span className="font-medium">Explorer</span>
+            </div>
+            {files.map((f, i) => (
+              <div key={f} className={`flex items-center gap-2 px-2 py-1.5 rounded text-xs cursor-pointer transition-colors ${i === 0 ? 'bg-white/[0.06] text-white/80' : 'text-white/30 hover:text-white/50'}`}>
+                <FileCode size={12} /> {f}
+              </div>
+            ))}
+          </div>
+
+          {/* Code Area */}
+          <div className="flex-1 p-5 min-h-[400px]">
+            <pre className="font-mono text-sm leading-relaxed">
+              {sampleCode.split('\n').map((line, i) => (
+                <div key={i} className="flex">
+                  <span className="text-white/15 w-8 text-right mr-4 select-none text-xs leading-relaxed">{i + 1}</span>
+                  <span className={
+                    line.startsWith('//')
+                      ? 'text-green-400/50'
+                      : line.includes('function')
+                        ? 'text-purple-400/80'
+                        : line.includes('console')
+                          ? 'text-cyan-400/70'
+                          : 'text-white/60'
+                  }>{line}</span>
+                </div>
+              ))}
+            </pre>
+          </div>
+        </div>
+
+        {/* Terminal */}
+        <div className="border-t border-white/[0.06] p-4 bg-black/30">
+          <div className="flex items-center gap-2 text-xs text-white/30 mb-2">
+            <Terminal size={12} /> Terminal
+          </div>
+          <div className="font-mono text-xs text-green-400/60 space-y-0.5">
+            <p>$ node main.js</p>
+            <p className="text-white/40">fib(0) = 0</p>
+            <p className="text-white/40">fib(1) = 1</p>
+            <p className="text-white/40">fib(2) = 1</p>
+            <p className="text-white/40">fib(3) = 2</p>
+            <p className="text-cyan-400/50">✓ Execution completed in 12ms</p>
+          </div>
+        </div>
+      </motion.div>
+    </div>
+  )
+}

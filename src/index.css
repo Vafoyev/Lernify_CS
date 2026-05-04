@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== BASE RESETS ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #0a0e1a;
+  color: #e2e8f0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0e1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00f0ff33, #a855f733);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #00f0ff66, #a855f766);
+}
+
+/* ===== GLASS UTILITIES ===== */
+@layer components {
+  .glass-panel {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.06] rounded-2xl;
+    box-shadow: 
+      0 0 30px rgba(0, 240, 255, 0.03),
+      inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  }
+
+  .glass-panel-hover {
+    @apply glass-panel transition-all duration-500 ease-out;
+  }
+
+  .glass-panel-hover:hover {
+    @apply bg-white/[0.06] border-white/[0.12];
+    box-shadow: 
+      0 0 50px rgba(0, 240, 255, 0.08),
+      0 0 100px rgba(168, 85, 247, 0.04),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .glass-sidebar {
+    @apply bg-white/[0.02] backdrop-blur-2xl border-r border-white/[0.06];
+    box-shadow: 4px 0 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .glow-border {
+    position: relative;
+  }
+
+  .glow-border::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, #00f0ff22, #a855f722, transparent, #00f0ff22);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .glow-border:hover::before {
+    opacity: 1;
+  }
+
+  .cyber-gradient-text {
+    background: linear-gradient(135deg, #00f0ff, #3b82f6, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .cyber-gradient-text-warm {
+    background: linear-gradient(135deg, #f97316, #ec4899, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .btn-cyber {
+    @apply px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-300;
+    background: linear-gradient(135deg, #00f0ff15, #a855f715);
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    color: #00f0ff;
+  }
+
+  .btn-cyber:hover {
+    background: linear-gradient(135deg, #00f0ff25, #a855f725);
+    border-color: rgba(0, 240, 255, 0.4);
+    box-shadow: 0 0 30px rgba(0, 240, 255, 0.15);
+    transform: translateY(-1px);
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 rounded-xl font-semibold text-sm text-white transition-all duration-300;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    border: 1px solid rgba(37, 99, 235, 0.3);
+  }
+
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    box-shadow: 0 0 30px rgba(37, 99, 235, 0.3);
+    transform: translateY(-1px);
+  }
+
+  .stat-card {
+    @apply glass-panel p-6 relative overflow-hidden;
+  }
+
+  .stat-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 1rem 0 100%;
+    opacity: 0.05;
+  }
+
+  .progress-ring {
+    transform: rotate(-90deg);
+  }
+
+  .nav-item {
+    @apply flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all duration-300;
+    color: #94a3b8;
+  }
+
+  .nav-item:hover {
+    color: #e2e8f0;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .nav-item.active {
+    color: #00f0ff;
+    background: linear-gradient(135deg, rgba(0, 240, 255, 0.08), rgba(168, 85, 247, 0.05));
+    border: 1px solid rgba(0, 240, 255, 0.15);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.05);
+  }
+}
+
+/* ===== PARTICLES CANVAS ===== */
+#tsparticles {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ===== SELECTION ===== */
+::selection {
+  background: rgba(0, 240, 255, 0.2);
+  color: #fff;
+}
