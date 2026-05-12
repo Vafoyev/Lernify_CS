@@ -143,7 +143,7 @@ export default function Login() {
         </div>
 
         <p className="text-center text-white/15 text-[10px] mt-6">
-          Lernify CS v1.0 — Xorazm qurilish va kommunal xo'jaligi texnikumi
+          Lernify CS v1.0  Urganch Davlat Universiteti
         </p>
       </motion.div>
     </div>
