@@ -37,12 +37,12 @@ export default function Dashboard() {
     : 0
 
   const stats = [
-    { icon: Zap, label: 'Total XP', value: xp.toLocaleString(), color: '#00f0ff', bg: 'from-cyan-500/10 to-cyan-500/5' },
-    { icon: TrendingUp, label: 'Level', value: level, color: '#a855f7', bg: 'from-purple-500/10 to-purple-500/5' },
-    { icon: Flame, label: 'Day Streak', value: streak, color: '#f97316', bg: 'from-orange-500/10 to-orange-500/5' },
-    { icon: BookOpen, label: 'Topics Done', value: `${completedTopics.length}/${totalTopics}`, color: '#3b82f6', bg: 'from-blue-500/10 to-blue-500/5' },
-    { icon: Target, label: 'Avg Score', value: `${avgScore}%`, color: '#22c55e', bg: 'from-green-500/10 to-green-500/5' },
-    { icon: Trophy, label: 'Quizzes Taken', value: quizResults.length, color: '#ec4899', bg: 'from-pink-500/10 to-pink-500/5' },
+    { icon: Zap, label: 'Jami XP', value: xp.toLocaleString(), color: '#00f0ff', bg: 'from-cyan-500/10 to-cyan-500/5' },
+    { icon: TrendingUp, label: 'Daraja', value: level, color: '#a855f7', bg: 'from-purple-500/10 to-purple-500/5' },
+    { icon: Flame, label: 'Kunlik seriya', value: streak, color: '#f97316', bg: 'from-orange-500/10 to-orange-500/5' },
+    { icon: BookOpen, label: 'Mavzular', value: `${completedTopics.length}/${totalTopics}`, color: '#3b82f6', bg: 'from-blue-500/10 to-blue-500/5' },
+    { icon: Target, label: "O'rtacha ball", value: `${avgScore}%`, color: '#22c55e', bg: 'from-green-500/10 to-green-500/5' },
+    { icon: Trophy, label: 'Testlar soni', value: quizResults.length, color: '#ec4899', bg: 'from-pink-500/10 to-pink-500/5' },
   ]
 
   const recentResults = quizResults.slice(-5).reverse()
@@ -51,9 +51,9 @@ export default function Dashboard() {
     <div className="space-y-8">
       <div>
         <motion.h1 initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="text-3xl font-extrabold tracking-tight">
-          <span className="cyber-gradient-text">Dashboard</span>
+          <span className="cyber-gradient-text">Bosh sahifa</span>
         </motion.h1>
-        <p className="text-white/40 text-sm mt-1">Welcome back! Here's your learning overview.</p>
+        <p className="text-white/40 text-sm mt-1">Xush kelibsiz! Mana sizning o'quv natijalari.</p>
       </div>
 
       {/* Stats Grid */}
@@ -78,19 +78,19 @@ export default function Dashboard() {
 
       {/* Progress Circles */}
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-panel p-8">
-        <h2 className="text-lg font-semibold mb-6 text-white/80">Progress Overview</h2>
+        <h2 className="text-lg font-semibold mb-6 text-white/80">Umumiy natijalar</h2>
         <div className="flex flex-wrap justify-center gap-10">
-          <CircularProgress value={completedTopics.length} max={totalTopics} label="Topics Completed" color="#00f0ff" />
-          <CircularProgress value={xp} max={level * 100} label="XP to Next Level" color="#a855f7" />
-          <CircularProgress value={avgScore} max={100} label="Average Score" color="#22c55e" />
+          <CircularProgress value={completedTopics.length} max={totalTopics} label="Tugallangan mavzular" color="#00f0ff" />
+          <CircularProgress value={xp} max={level * 100} label="Keyingi daraja uchun XP" color="#a855f7" />
+          <CircularProgress value={avgScore} max={100} label="O'rtacha ball" color="#22c55e" />
         </div>
       </motion.div>
 
       {/* Recent Activity */}
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} className="glass-panel p-6">
-        <h2 className="text-lg font-semibold mb-4 text-white/80">Recent Activity</h2>
+        <h2 className="text-lg font-semibold mb-4 text-white/80">So'nggi faoliyat</h2>
         {recentResults.length === 0 ? (
-          <p className="text-white/30 text-sm">No quizzes taken yet. Start learning!</p>
+          <p className="text-white/30 text-sm">Hali test topshirilmagan. O'rganishni boshlang!</p>
         ) : (
           <div className="space-y-3">
             {recentResults.map((r, i) => {

@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "title": "Maʼlumot, axborot va bilimlar bazasi. Maʼlumot manbasi. Bevosita va bilvosita manbalardan maʼlumot toʻplash.",
+    "description": "Ushbu mavzuda ma'lumot, axborot va bilim tushunchalari hamda ularning o'zaro farqi o'rganiladi. Shuningdek, turli manbalardan ma'lumot yig'ish usullari ko'rib chiqiladi.",
+    "icon": "📚",
+    "color": "#00f0ff",
+    "quizzes": [
+      {
+        "questionText": "Ma'lumot va axborotning asosiy farqi nimada?",
+        "options": ["Ularning hajmi turlicha", "Ma'lumot xom ashyo, axborot esa qayta ishlangan holatidir", "Hech qanday farqi yo'q", "Axborot faqat matn ko'rinishida bo'ladi"],
+        "correctAnswer": "Ma'lumot xom ashyo, axborot esa qayta ishlangan holatidir"
+      },
+      {
+        "questionText": "Bilimlar bazasi nima?",
+        "options": ["Faqat raqamlar saqlanadigan joy", "Muayyan sohadagi tahlil qilingan va tizimlashtirilgan ma'lumotlar to'plami", "Internetdagi barcha veb-saytlar ro'yxati", "Foydalanuvchi parollari saqlanadigan fayl"],
+        "correctAnswer": "Muayyan sohadagi tahlil qilingan va tizimlashtirilgan ma'lumotlar to'plami"
+      },
+      {
+        "questionText": "Bevosita ma'lumot manbasiga nima misol bo'la oladi?",
+        "options": ["Kitob o'qish", "Shaxsan intervyu olish", "Internetdan qidirish", "Televizor ko'rish"],
+        "correctAnswer": "Shaxsan intervyu olish"
+      },
+      {
+        "questionText": "Bilvosita ma'lumot yig'ish usuli qaysi qatorda to'g'ri ko'rsatilgan?",
+        "options": ["Kuzatish olib borish", "So'rovnoma to'ldirish", "Jurnallar va hisobotlardan ma'lumot olish", "Laboratoriya tajribasini o'tkazish"],
+        "correctAnswer": "Jurnallar va hisobotlardan ma'lumot olish"
+      },
+      {
+        "questionText": "Axborotning qimmatliligi nima bilan belgilanadi?",
+        "options": ["Uning uzunligi bilan", "Uning aniqligi, dolzarbligi va ishonchliligi bilan", "Qayerda saqlanishi bilan", "Kompyuterning tezligi bilan"],
+        "correctAnswer": "Uning aniqligi, dolzarbligi va ishonchliligi bilan"
+      },
+      {
+        "questionText": "Xom ma'lumot (Raw data) qanday xususiyatga ega?",
+        "options": ["Tahlil qilingan", "Tartibga solinmagan va qayta ishlanmagan", "Xulosa chiqarish uchun yetarli", "Faqat to'g'ri bo'ladi"],
+        "correctAnswer": "Tartibga solinmagan va qayta ishlanmagan"
+      },
+      {
+        "questionText": "Ma'lumot to'plashda qaysi usul eng ko'p vaqt talab qiladi?",
+        "options": ["Onlayn so'rovnomalar", "Shaxsiy intervyu va tajribalar", "Ma'lumotlar bazasidan eksport qilish", "Avtomatlashtirilgan datchiklar"],
+        "correctAnswer": "Shaxsiy intervyu va tajribalar"
+      },
+      {
+        "questionText": "Axborot tizimining asosiy vazifasi nima?",
+        "options": ["Ma'lumotlarni yig'ish, saqlash va qayta ishlash", "Kompyuter xotirasini tozalash", "Faqat matn yozish", "O'yinlarni o'rnatish"],
+        "correctAnswer": "Ma'lumotlarni yig'ish, saqlash va qayta ishlash"
+      },
+      {
+        "questionText": "Fakt nima?",
+        "options": ["Shaxsiy fikr", "Kuzatish orqali isbotlangan obyektiv holat", "Taxminiy ma'lumot", "Tasdiqlanmagan mish-mish"],
+        "correctAnswer": "Kuzatish orqali isbotlangan obyektiv holat"
+      },
+      {
+        "questionText": "Olingan ma'lumotning ishonchliligini qanday tekshirish mumkin?",
+        "options": ["Manbaning ishonchliligini tahlil qilish orqali", "Ma'lumotning hajmini o'lchash orqali", "Fayl formatiga qarab", "Uning rangini tekshirish orqali"],
+        "correctAnswer": "Manbaning ishonchliligini tahlil qilish orqali"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Kod berish, kodlash va shifrlash. Simmetrik va asimmetrik shifrlash usullari.",
+    "description": "Ma'lumotlarni xavfsiz uzatish uchun ishlatiladigan kodlash va shifrlash usullari o'rganiladi. Simmetrik va asimmetrik shifrlashning ishlash tamoyillari ko'rib chiqiladi.",
+    "icon": "🔐",
+    "color": "#3b82f6",
+    "quizzes": [
+      {
+        "questionText": "Shifrlash (Encryption) nima?",
+        "options": ["Ma'lumotni o'qib bo'lmaydigan formatga o'zgartirish", "Fayl hajmini kichraytirish", "Ma'lumotni o'chirish", "Ma'lumotni nusxalash"],
+        "correctAnswer": "Ma'lumotni o'qib bo'lmaydigan formatga o'zgartirish"
+      },
+      {
+        "questionText": "Simmetrik shifrlashning asosiy xususiyati nima?",
+        "options": ["Ikkita turli kalit ishlatiladi", "Shifrlash va de-shifrlash uchun bir xil kalit ishlatiladi", "Umuman kalit ishlatilmaydi", "Faqat matn uchun ishlaydi"],
+        "correctAnswer": "Shifrlash va de-shifrlash uchun bir xil kalit ishlatiladi"
+      },
+      {
+        "questionText": "Asimmetrik shifrlashda qanday kalitlar ishlatiladi?",
+        "options": ["Faqat bitta kalit", "Faqat ochiq kalit", "Ochiq (public) va yopiq (private) kalitlar", "Ikkita yopiq kalit"],
+        "correctAnswer": "Ochiq (public) va yopiq (private) kalitlar"
+      },
+      {
+        "questionText": "Ma'lumotni ochiq kalit bilan shifrlagandan so'ng uni faqat nima bilan ochish mumkin?",
+        "options": ["Yana ochiq kalit bilan", "Xuddi shu yopiq kalit bilan", "Parol bilan", "Manzil bilan"],
+        "correctAnswer": "Xuddi shu yopiq kalit bilan"
+      },
+      {
+        "questionText": "Kodlash (Coding) va shifrlashning farqi nimada?",
+        "options": ["Kodlash ma'lumotni boshqa formatga o'tkazadi (masalan, Base64), shifrlash esa uni maxfiylashtiradi", "Ular mutlaqo bir xil", "Shifrlash faqat dasturchilar uchun, kodlash hamma uchun", "Kodlash xavfsizroq"],
+        "correctAnswer": "Kodlash ma'lumotni boshqa formatga o'tkazadi (masalan, Base64), shifrlash esa uni maxfiylashtiradi"
+      },
+      {
+        "questionText": "Qaysi shifrlash usuli tezroq ishlaydi?",
+        "options": ["Asimmetrik shifrlash", "Simmetrik shifrlash", "Ikkalasi bir xil", "Boshqa usullar"],
+        "correctAnswer": "Simmetrik shifrlash"
+      },
+      {
+        "questionText": "RSA algoritmi qaysi shifrlash turiga misol bo'ladi?",
+        "options": ["Simmetrik", "Asimmetrik", "Kombinatsiyalashgan", "Hash"],
+        "correctAnswer": "Asimmetrik"
+      },
+      {
+        "questionText": "AES algoritmi qaysi shifrlash turiga misol bo'ladi?",
+        "options": ["Asimmetrik", "Kriptografik hash", "Simmetrik", "Ochiq kalitli"],
+        "correctAnswer": "Simmetrik"
+      },
+      {
+        "questionText": "Raqamli imzo (Digital Signature) asosan qaysi shifrlash usuliga tayanadi?",
+        "options": ["Simmetrik shifrlash", "Asimmetrik shifrlash", "Arxivlash", "Tarmoq manzili"],
+        "correctAnswer": "Asimmetrik shifrlash"
+      },
+      {
+        "questionText": "Kriptografiyada 'Plaintext' nima?",
+        "options": ["Shifrlangan matn", "Shifrlanmagan, ochiq va tushunarli matn", "Parol kaliti", "Maxsus shifrlash algoritmi"],
+        "correctAnswer": "Shifrlanmagan, ochiq va tushunarli matn"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Maʼlumotlarning toʻgʻriligini tekshirish. Vizual tekshirish.",
+    "description": "Kiritilgan ma'lumotlarning aniqligi va to'g'riligini tekshirish usullari. Vizual va avtomatik tekshirish prinsiplari o'rganiladi.",
+    "icon": "👁️",
+    "color": "#a855f7",
+    "quizzes": [
+      {
+        "questionText": "Vizual tekshirish (Proofreading) nima?",
+        "options": ["Kompyuter orqali xatolarni izlash", "Ma'lumotni kiritgandan so'ng inson tomonidan ko'z bilan o'qib tekshirish", "Ma'lumotni internetga yuklash", "Parolni tiklash"],
+        "correctAnswer": "Ma'lumotni kiritgandan so'ng inson tomonidan ko'z bilan o'qib tekshirish"
+      },
+      {
+        "questionText": "Ma'lumot kiritilishida 'Double-entry verification' nima?",
+        "options": ["Ma'lumotni o'chirish", "Ma'lumotni ikki xil odam tomonidan yoki ikki marta kiritib solishtirish", "Ma'lumotni avtomatik nusxalash", "Parolni ikki marta kiritish"],
+        "correctAnswer": "Ma'lumotni ikki xil odam tomonidan yoki ikki marta kiritib solishtirish"
+      },
+      {
+        "questionText": "Validation (Yaroqlilikni tekshirish) va Verification (To'g'riligini tekshirish) o'rtasidagi farq nima?",
+        "options": ["Ikkalasi bir xil", "Validation ma'lumot qoidalarga mosligini, Verification esa uning asliyatini va aniqligini tekshiradi", "Verification faqat sonlarni tekshiradi", "Validation faqat internetda ishlaydi"],
+        "correctAnswer": "Validation ma'lumot qoidalarga mosligini, Verification esa uning asliyatini va aniqligini tekshiradi"
+      },
+      {
+        "questionText": "Vizual tekshirishning asosiy kamchiligi nima?",
+        "options": ["Juda tez ishlaydi", "Kompyuterga zarar yetkazadi", "Inson omili tufayli xatolar o'tkazib yuborilishi mumkin", "Maxsus dastur talab qilinadi"],
+        "correctAnswer": "Inson omili tufayli xatolar o'tkazib yuborilishi mumkin"
+      },
+      {
+        "questionText": "Nazorat yig'indisi (Checksum) nima uchun ishlatiladi?",
+        "options": ["Ma'lumot uzatishda uning butunligini va o'zgarmaganligini tekshirish uchun", "Fayllarni arxivlash uchun", "Rasm hajmini kamaytirish uchun", "Viruslarni tozalash uchun"],
+        "correctAnswer": "Ma'lumot uzatishda uning butunligini va o'zgarmaganligini tekshirish uchun"
+      },
+      {
+        "questionText": "Transpozitsiya xatosi nima?",
+        "options": ["Harflarning o'chib ketishi", "Yonma-yon turgan ikkita belgi yoki raqamning o'rni almashib qolishi", "Barcha harflarning katta bo'lib qolishi", "Internet uzilishi"],
+        "correctAnswer": "Yonma-yon turgan ikkita belgi yoki raqamning o'rni almashib qolishi"
+      },
+      {
+        "questionText": "Format tekshiruvi (Format check) qanday ishlaydi?",
+        "options": ["Ma'lumot kutilgan formatda (masalan, sana dd/mm/yyyy) ekanligini tekshiradi", "Matn uzunligini o'lchaydi", "Kompyuter tezligini tekshiradi", "Harflarning rangini aniqlaydi"],
+        "correctAnswer": "Ma'lumot kutilgan formatda (masalan, sana dd/mm/yyyy) ekanligini tekshiradi"
+      },
+      {
+        "questionText": "Oraliq tekshiruvi (Range check) nima?",
+        "options": ["Matnni tarjima qiladi", "Kiritilgan qiymat belgilangan eng kichik va eng katta chegaralar ichidaligini aniqlaydi", "Faqat harflarni qabul qiladi", "Internet tezligini o'lchaydi"],
+        "correctAnswer": "Kiritilgan qiymat belgilangan eng kichik va eng katta chegaralar ichidaligini aniqlaydi"
+      },
+      {
+        "questionText": "Mavjudlikni tekshirish (Presence check) nimani ta'minlaydi?",
+        "options": ["Maydon bo'sh qolmasligini", "Faqat sonlar kiritilishini", "Ma'lumot avtomatik o'chishini", "Hujjatning qayerda joylashganini"],
+        "correctAnswer": "Maydon bo'sh qolmasligini"
+      },
+      {
+        "questionText": "Qaysi xato turini Validation qoidalari orqali ushlab qolish qiyin?",
+        "options": ["Format xatolari", "Yosh 150 dan katta bo'lishi", "Kishining ismini 'Ali' o'rniga 'Vali' deb to'g'ri formatda kiritilishi", "Telefon raqami o'rniga harf yozilishi"],
+        "correctAnswer": "Kishining ismini 'Ali' o'rniga 'Vali' deb to'g'ri formatda kiritilishi"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Apparat taʼminot. Ichki va tashqi qurilmalar. Xotira qurilmalari.",
+    "description": "Kompyuterning qattiq qismlari, ularning turlari va ishlash tamoyillari. Doimiy va tezkor xotira qurilmalari farqlanadi.",
+    "icon": "🖥️",
+    "color": "#f97316",
+    "quizzes": [
+      {
+        "questionText": "Apparat ta'minoti (Hardware) nima?",
+        "options": ["Kompyuterning barcha dasturlari", "Kompyuterning fizik qismlari va qurilmalari", "Operatsion tizim", "Internet tarmog'i"],
+        "correctAnswer": "Kompyuterning fizik qismlari va qurilmalari"
+      },
+      {
+        "questionText": "Qaysi biri ichki qurilma hisoblanadi?",
+        "options": ["Monitor", "Klaviatura", "Ona plata (Motherboard)", "Printer"],
+        "correctAnswer": "Ona plata (Motherboard)"
+      },
+      {
+        "questionText": "CPU (Markaziy protsessor) ning asosiy vazifasi nima?",
+        "options": ["Ma'lumotlarni doimiy saqlash", "Dastur ko'rsatmalarini bajarish va hisoblashlarni amalga oshirish", "Rasmlarni ekranga chiqarish", "Internetga ulanish"],
+        "correctAnswer": "Dastur ko'rsatmalarini bajarish va hisoblashlarni amalga oshirish"
+      },
+      {
+        "questionText": "RAM (Tezkor xotira) qanday xususiyatga ega?",
+        "options": ["Doimiy, elektr uzilganda ma'lumot saqlanadi", "Vaqtinchalik, elektr uzilganda ma'lumot o'chadi", "Faqat o'qish uchun mo'ljallangan", "Eng katta xotira hajmi"],
+        "correctAnswer": "Vaqtinchalik, elektr uzilganda ma'lumot o'chadi"
+      },
+      {
+        "questionText": "ROM (Doimiy xotira) nima maqsadda ishlatiladi?",
+        "options": ["O'yinlarni saqlash uchun", "Kompyuterni yuklash uchun zarur bo'lgan dastlabki ko'rsatmalarni (BIOS) saqlash uchun", "Video tahrirlash uchun", "Hujjatlarni vaqtinchalik saqlash uchun"],
+        "correctAnswer": "Kompyuterni yuklash uchun zarur bo'lgan dastlabki ko'rsatmalarni (BIOS) saqlash uchun"
+      },
+      {
+        "questionText": "Qaysi biri tashqi xotira qurilmasi (Secondary Storage) hisoblanadi?",
+        "options": ["RAM", "Cache", "SSD (Solid State Drive)", "Register"],
+        "correctAnswer": "SSD (Solid State Drive)"
+      },
+      {
+        "questionText": "HDD va SSD o'rtasidagi asosiy farq nimada?",
+        "options": ["HDD magnit disklardan foydalanadi va sekinroq, SSD esa flesh xotiraga asoslangan va tezroq", "SSD arzonroq va sekinroq", "HDD faqat noutbuklar uchun ishlatiladi", "Ularning faqat rangi farq qiladi"],
+        "correctAnswer": "HDD magnit disklardan foydalanadi va sekinroq, SSD esa flesh xotiraga asoslangan va tezroq"
+      },
+      {
+        "questionText": "Kiruvchi (Input) qurilmalarni ko'rsating.",
+        "options": ["Monitor va Printer", "Sichqoncha va Klaviatura", "Kalonka va Proyektor", "Protsessor va RAM"],
+        "correctAnswer": "Sichqoncha va Klaviatura"
+      },
+      {
+        "questionText": "Chiquvchi (Output) qurilma qaysi qatorda berilgan?",
+        "options": ["Mikrofon", "Skaner", "Monitor", "Veb-kamera"],
+        "correctAnswer": "Monitor"
+      },
+      {
+        "questionText": "GPU (Grafik protsessor) asosan nima uchun ishlatiladi?",
+        "options": ["Matnli fayllarni saqlash", "Ekranda tasvir va videolarni tez va samarali yaratish", "Kompyuterni sovitish", "Foydalanuvchi parollarini shifrlash"],
+        "correctAnswer": "Ekranda tasvir va videolarni tez va samarali yaratish"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Tizimli dasturiy taʼminot. Amaliy dasturiy taʼminot. Drayverlar.",
+    "description": "Dasturiy ta'minot turlari, operatsion tizimlar va ularning qurilmalar bilan drayverlar orqali qanday muloqot qilishi.",
+    "icon": "💿",
+    "color": "#22c55e",
+    "quizzes": [
+      {
+        "questionText": "Dasturiy ta'minot (Software) deb nimaga aytiladi?",
+        "options": ["Kompyuterning fizik qismlariga", "Kompyuterni boshqaruvchi va vazifalarni bajaruvchi dasturlar to'plamiga", "Faqat kompyuter o'yinlariga", "Internet kabellariga"],
+        "correctAnswer": "Kompyuterni boshqaruvchi va vazifalarni bajaruvchi dasturlar to'plamiga"
+      },
+      {
+        "questionText": "Tizimli dasturiy ta'minot (System Software) ning asosiy vazifasi nima?",
+        "options": ["Matn yozish va rasm chizish", "Kompyuter qurilmalarini boshqarish va ilovalar ishlashi uchun muhit yaratish", "Faqat viruslarni tozalash", "Musiqa tinglash"],
+        "correctAnswer": "Kompyuter qurilmalarini boshqarish va ilovalar ishlashi uchun muhit yaratish"
+      },
+      {
+        "questionText": "Qaysi biri Tizimli dasturiy ta'minotga misol bo'ladi?",
+        "options": ["Microsoft Word", "Windows 11", "Adobe Photoshop", "Google Chrome"],
+        "correctAnswer": "Windows 11"
+      },
+      {
+        "questionText": "Amaliy dasturiy ta'minot (Application Software) nima?",
+        "options": ["Foydalanuvchining ma'lum bir amaliy ehtiyojlarini (masalan, hisoblash, matn yozish) bajaruvchi dasturlar", "Protsessorni boshqaruvchi kodlar", "Ona platani ishga tushiruvchi mikrodastur", "Faqat tarmoq drayverlari"],
+        "correctAnswer": "Foydalanuvchining ma'lum bir amaliy ehtiyojlarini (masalan, hisoblash, matn yozish) bajaruvchi dasturlar"
+      },
+      {
+        "questionText": "Drayver (Driver) dasturining asosiy vazifasi nima?",
+        "options": ["Antivirus funksiyasini bajarish", "Operatsion tizim va qattiq qurilmalar (masalan, printer) o'rtasida muloqotni ta'minlash", "Matnlarni tarjima qilish", "O'yin grafikalarini o'zgartirish"],
+        "correctAnswer": "Operatsion tizim va qattiq qurilmalar (masalan, printer) o'rtasida muloqotni ta'minlash"
+      },
+      {
+        "questionText": "Qaysi biri Amaliy dasturiy ta'minot hisoblanmaydi?",
+        "options": ["Linux (Ubuntu)", "Telegram", "Microsoft Excel", "VLC Media Player"],
+        "correctAnswer": "Linux (Ubuntu)"
+      },
+      {
+        "questionText": "Operatsion tizim qanday dasturiy ta'minot turiga kiradi?",
+        "options": ["Amaliy", "Tizimli", "Drayver", "Zararli"],
+        "correctAnswer": "Tizimli"
+      },
+      {
+        "questionText": "Utility (Xizmat ko'rsatuvchi) dasturlarga misol keltiring.",
+        "options": ["Diskni defragmentatsiya qiluvchi dastur, Antiviruslar", "Internet brauzerlari", "O'yinlar", "Matn muharrirlari"],
+        "correctAnswer": "Diskni defragmentatsiya qiluvchi dastur, Antiviruslar"
+      },
+      {
+        "questionText": "Agar printer kompyuterga ulangan bo'lsa-yu ishlamasa, muammo nima bo'lishi ehtimoli yuqori?",
+        "options": ["Monitor o'chiq", "Printer drayveri o'rnatilmagan yoki eskirgan", "RAM to'lib qolgan", "Klaviatura ulangan emas"],
+        "correctAnswer": "Printer drayveri o'rnatilmagan yoki eskirgan"
+      },
+      {
+        "questionText": "BIOS (Basic Input/Output System) qayerda saqlanadi?",
+        "options": ["RAM xotirada", "HDD da", "Ona platadagi ROM chipida", "Flash kartada"],
+        "correctAnswer": "Ona platadagi ROM chipida"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Fotosurat, video va veb tahrirlash dasturiy taʼminoti.",
+    "description": "Raqamli mediani tahrirlash uchun maxsus dasturlar va ularning imkoniyatlari o'rganiladi.",
+    "icon": "📸",
+    "color": "#ec4899",
+    "quizzes": [
+      {
+        "questionText": "Fotosurat tahrirlash dasturining asosiy vazifasi nima?",
+        "options": ["Matnlarni formatlash", "Rasmlarni kesish, ranglarini to'g'rilash va effektlar qo'shish", "Web saytlar yaratish", "Kod yozish"],
+        "correctAnswer": "Rasmlarni kesish, ranglarini to'g'rilash va effektlar qo'shish"
+      },
+      {
+        "questionText": "Qaysi dastur asosan fotosuratlar bilan ishlashga mo'ljallangan?",
+        "options": ["Adobe Premiere", "Microsoft Word", "Adobe Photoshop", "Visual Studio"],
+        "correctAnswer": "Adobe Photoshop"
+      },
+      {
+        "questionText": "Vektor grafikani yaratish va tahrirlash uchun qaysi dastur mashhur?",
+        "options": ["Adobe Illustrator", "Notepad", "Windows Media Player", "Microsoft Excel"],
+        "correctAnswer": "Adobe Illustrator"
+      },
+      {
+        "questionText": "Video tahrirlash dasturida 'Timeline' (Vaqt shkalasi) nima uchun ishlatiladi?",
+        "options": ["Videoning rangini o'zgartirish uchun", "Video kliplar va audio treklarni vaqt ketma-ketligida joylashtirish va qirqish uchun", "Faqat matn qo'shish uchun", "Yangi fayl yaratish uchun"],
+        "correctAnswer": "Video kliplar va audio treklarni vaqt ketma-ketligida joylashtirish va qirqish uchun"
+      },
+      {
+        "questionText": "Qaysi dastur video tahrirlash uchun mo'ljallangan?",
+        "options": ["Adobe Premiere Pro", "CorelDraw", "Microsoft Access", "Google Chrome"],
+        "correctAnswer": "Adobe Premiere Pro"
+      },
+      {
+        "questionText": "Web tahrirlash (Web design/development) dasturlari nima maqsadda ishlatiladi?",
+        "options": ["Musiqa yaratish", "Veb-saytlarning interfeysini loyihalash va kodlash", "Faqat rasmlarni saqlash", "Kompyuterni viruslardan tozalash"],
+        "correctAnswer": "Veb-saytlarning interfeysini loyihalash va kodlash"
+      },
+      {
+        "questionText": "Qaysi dastur veb-sayt dizaynini (UI/UX) yaratish uchun keng qo'llaniladi?",
+        "options": ["Figma", "AutoCAD", "Sony Vegas", "Microsoft PowerPoint"],
+        "correctAnswer": "Figma"
+      },
+      {
+        "questionText": "Rasmlarni tahrirlashda 'Layer' (Qatlam) tushunchasi nimani anglatadi?",
+        "options": ["Rasmdagi piksel sonini", "Tasvir elementlarini bir-birining ustiga o'zaro aralashmasdan joylashtirish imkonini beruvchi qismlar", "Rasmning rangini", "Tasvirni o'chirish usulini"],
+        "correctAnswer": "Tasvir elementlarini bir-birining ustiga o'zaro aralashmasdan joylashtirish imkonini beruvchi qismlar"
+      },
+      {
+        "questionText": "Video hajmini kichraytirish uchun ishlatiladigan usul qanday ataladi?",
+        "options": ["Ekstraksiya", "Kompressiya (Siqish)", "Kengaytirish", "Dublyaj"],
+        "correctAnswer": "Kompressiya (Siqish)"
+      },
+      {
+        "questionText": "Veb-saytlarni yaratishda HTML va CSS kodlarini yozish uchun qaysi dastur turidan foydalaniladi?",
+        "options": ["Video muharrir", "Matn muharriri (IDE/Text Editor, masalan VS Code)", "Antivirus", "Hisob kitob dasturi"],
+        "correctAnswer": "Matn muharriri (IDE/Text Editor, masalan VS Code)"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Foydalanuvchi interfeysi dizaynidagi boshqaruv elementlari.",
+    "description": "UI elementlari, tugmalar, menyular va ularning qanday funksiyalarni bajarishi haqida batafsil ma'lumot.",
+    "icon": "🎛️",
+    "color": "#06b6d4",
+    "quizzes": [
+      {
+        "questionText": "GUI qanday ma'noni anglatadi?",
+        "options": ["General User Internet", "Graphical User Interface", "Global Unified Interface", "Graphical Usage Item"],
+        "correctAnswer": "Graphical User Interface"
+      },
+      {
+        "questionText": "Foydalanuvchi faqat bitta variantni tanlashi mumkin bo'lgan ro'yxat elementi qanday ataladi?",
+        "options": ["Checkbox", "Radio button", "Text area", "Progress bar"],
+        "correctAnswer": "Radio button"
+      },
+      {
+        "questionText": "Birdaniga bir nechta variantlarni tanlash imkonini beruvchi element nima?",
+        "options": ["Checkbox", "Radio button", "Drop-down menu", "Button"],
+        "correctAnswer": "Checkbox"
+      },
+      {
+        "questionText": "Foydalanuvchiga ro'yxatdan bir yoki bir nechta qiymatni tanlash imkonini beradigan ochiluvchi menyu qanday ataladi?",
+        "options": ["Text field", "Drop-down list (Combo box)", "Slider", "Toggle switch"],
+        "correctAnswer": "Drop-down list (Combo box)"
+      },
+      {
+        "questionText": "Foydalanuvchi interfeysida matn kiritish uchun qaysi element ishlatiladi?",
+        "options": ["Button", "Text box / Input field", "Scrollbar", "Tooltip"],
+        "correctAnswer": "Text box / Input field"
+      },
+      {
+        "questionText": "Jarayon qancha qismi bajarilganligini ko'rsatuvchi UI elementi nima?",
+        "options": ["Progress bar", "Menu bar", "Slider", "Checkbox"],
+        "correctAnswer": "Progress bar"
+      },
+      {
+        "questionText": "Ikki xil holatni (Masalan: Yoqish/O'chirish) ifodalovchi boshqaruv elementi nima?",
+        "options": ["Text field", "Toggle switch", "Dropdown", "Icon"],
+        "correctAnswer": "Toggle switch"
+      },
+      {
+        "questionText": "Foydalanuvchi ma'lum bir qiymatni tanlash uchun tutqichni siljitadigan element qanday ataladi?",
+        "options": ["Checkbox", "Slider", "Radio button", "Text box"],
+        "correctAnswer": "Slider"
+      },
+      {
+        "questionText": "Foydalanuvchi sichqoncha kursorini element ustiga olib kelganda paydo bo'ladigan yordamchi matn nima deyiladi?",
+        "options": ["Tooltip", "Button", "Link", "Modal"],
+        "correctAnswer": "Tooltip"
+      },
+      {
+        "questionText": "Boshqa sahifaga yoki resursga o'tishni ta'minlaydigan bosiladigan matn yoki rasm nima?",
+        "options": ["Slider", "Hyperlink (Havola)", "Progress bar", "Dropdown"],
+        "correctAnswer": "Hyperlink (Havola)"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sensorlar. Harakat, bosim, namlik, harorat va yorugʻlik sensorlari.",
+    "description": "Fizik kattaliklarni o'lchovchi datchiklar, ularning turlari hamda turmushdagi amaliy qo'llanilishi.",
+    "icon": "🌡️",
+    "color": "#8b5cf6",
+    "quizzes": [
+      {
+        "questionText": "Sensor nima vazifani bajaradi?",
+        "options": ["Faqat hisoblash amallarini bajaradi", "Fizik muhitdagi o'zgarishlarni sezadi va ularni elektr signallariga aylantiradi", "Elektr energiyasini ishlab chiqaradi", "Rasmlarni ekranda ko'rsatadi"],
+        "correctAnswer": "Fizik muhitdagi o'zgarishlarni sezadi va ularni elektr signallariga aylantiradi"
+      },
+      {
+        "questionText": "Harorat sensori (Temperature sensor) qayerda ko'p ishlatiladi?",
+        "options": ["Kompyuter sichqonchasida", "Konditsionerlar va muzlatkichlarda", "Printerlarda", "Klaviaturalarda"],
+        "correctAnswer": "Konditsionerlar va muzlatkichlarda"
+      },
+      {
+        "questionText": "Xonaga odam kirganda chiroqning avtomatik yonishi qaysi sensor ishiga misol bo'ladi?",
+        "options": ["Namlik sensori", "Bosim sensori", "Harakat sensori (PIR)", "Gaz sensori"],
+        "correctAnswer": "Harakat sensori (PIR)"
+      },
+      {
+        "questionText": "Yorug'lik sensori (Light sensor) qanday vazifani bajaradi?",
+        "options": ["Ovozni o'lchaydi", "Atrofdagi yorug'lik darajasini aniqlaydi", "Atrof muhit namligini o'lchaydi", "Bosimni o'lchaydi"],
+        "correctAnswer": "Atrofdagi yorug'lik darajasini aniqlaydi"
+      },
+      {
+        "questionText": "Namlik sensori asosan qaysi sohada keng qo'llaniladi?",
+        "options": ["Avtomobil tezligini o'lchashda", "Qishloq xo'jaligida (issiqxonalarda)", "Kompyuter ekranida", "Kino sanoatida"],
+        "correctAnswer": "Qishloq xo'jaligida (issiqxonalarda)"
+      },
+      {
+        "questionText": "Bosim sensori qaysi holatda ishlatilishi mumkin?",
+        "options": ["Xonadagi odamlar sonini sanashda", "Avtomobil shinalaridagi havoni o'lchashda", "Suratga olishda", "Qorong'ulikni aniqlashda"],
+        "correctAnswer": "Avtomobil shinalaridagi havoni o'lchashda"
+      },
+      {
+        "questionText": "Smartfonlarda ekranni avtomatik aylantirishni ta'minlaydigan datchik nima?",
+        "options": ["Harorat sensori", "Gidrometr", "Akselerometr / Giroskop", "Yorug'lik sensori"],
+        "correctAnswer": "Akselerometr / Giroskop"
+      },
+      {
+        "questionText": "Sensor tizimlar asosan nima bilan birgalikda ishlaydi?",
+        "options": ["Faqat o'z-o'zidan mustaqil ishlaydi", "Mikrokontroller va boshqaruvchi tizimlar bilan (masalan, Arduino, ESP32)", "Faqat printerning ichida ishlaydi", "Faqat Windows operatsion tizimida"],
+        "correctAnswer": "Mikrokontroller va boshqaruvchi tizimlar bilan (masalan, Arduino, ESP32)"
+      },
+      {
+        "questionText": "Yong'in xavfsizligi tizimlarida ko'pincha qaysi sensorlar ishlatiladi?",
+        "options": ["Namlik va yorug'lik sensorlari", "Tutun va harorat sensorlari", "Bosim va magnit sensorlari", "Harakat va ovoz sensorlari"],
+        "correctAnswer": "Tutun va harorat sensorlari"
+      },
+      {
+        "questionText": "Avtomobil eshiklarida qo'l siqilib qolmasligi uchun qaysi sensor ishlatiladi?",
+        "options": ["Yorug'lik sensori", "Bosim yoxud yaqinlashish (Proximity) sensori", "Namlik sensori", "Harorat sensori"],
+        "correctAnswer": "Bosim yoxud yaqinlashish (Proximity) sensori"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Elektron xavfsizlik. Phishing, Pharming, Smishing, Vishing, Troyan, va hokazo.",
+    "description": "Internetdagi eng keng tarqalgan kiber tahdidlar, xakerlik hujumlari turlari va ulardan himoyalanish usullari.",
+    "icon": "🛡️",
+    "color": "#f43f5e",
+    "quizzes": [
+      {
+        "questionText": "Phishing (Fishing) nima?",
+        "options": ["Tarmoq tezligini oshirish", "Foydalanuvchilarni aldamchi e-maillar orqali shaxsiy ma'lumotlarini (parol, karta raqami) berishga ko'ndirish", "Fayllarni kompyuterga ko'chirish", "Virus turlarini o'rganish"],
+        "correctAnswer": "Foydalanuvchilarni aldamchi e-maillar orqali shaxsiy ma'lumotlarini (parol, karta raqami) berishga ko'ndirish"
+      },
+      {
+        "questionText": "Vishing nima?",
+        "options": ["Videolar orqali virus tarqatish", "Ovozli aloqa (telefon) orqali odamlarni aldamoqchi bo'lish", "Ma'lumotlar bazasini buzish", "Faqat SMS orqali qilinadigan firibgarlik"],
+        "correctAnswer": "Ovozli aloqa (telefon) orqali odamlarni aldamoqchi bo'lish"
+      },
+      {
+        "questionText": "Smishing nima?",
+        "options": ["Ijtimoiy tarmoqlardagi sahifalarni buzish", "SMS xabarlar orqali amalga oshiriladigan phishing hujumi", "Antivirus dasturi", "Kompyuter ekranini bloklash"],
+        "correctAnswer": "SMS xabarlar orqali amalga oshiriladigan phishing hujumi"
+      },
+      {
+        "questionText": "Pharming hujumi qanday amalga oshiriladi?",
+        "options": ["Elektron pochta parolini taxmin qilish orqali", "DNS yozuvlarini buzib, foydalanuvchini soxta, yovuz niyatli saytga yo'naltirish orqali", "Sichqonchani boshqarib qolish orqali", "Diskni to'ldirish orqali"],
+        "correctAnswer": "DNS yozuvlarini buzib, foydalanuvchini soxta, yovuz niyatli saytga yo'naltirish orqali"
+      },
+      {
+        "questionText": "Troyan (Trojan horse) qanday zararli dastur?",
+        "options": ["Boshqa fayllarga o'zini yopishtiradigan kod", "O'zini foydali dastur kabi ko'rsatib, foydalanuvchi uni o'rnatgandan so'ng tizimga zarar yetkazadigan yoki ruxsatsiz kirish imkonini beradigan dastur", "Faqat USB fleshkalarda tarqaluvchi dastur", "Kompyuterni o'chirib qo'yuvchi tugma"],
+        "correctAnswer": "O'zini foydali dastur kabi ko'rsatib, foydalanuvchi uni o'rnatgandan so'ng tizimga zarar yetkazadigan yoki ruxsatsiz kirish imkonini beradigan dastur"
+      },
+      {
+        "questionText": "Ransomware (To'lov talab qiluvchi virus) nima qiladi?",
+        "options": ["Kompyuterdagi fayllarni shifrlab qulfga oladi va ularni ochish uchun pul talab qiladi", "Internetni tezlashtiradi", "Barcha rasmlarni o'chirib yuboradi", "Faqat parollarni ko'rsatadi"],
+        "correctAnswer": "Kompyuterdagi fayllarni shifrlab qulfga oladi va ularni ochish uchun pul talab qiladi"
+      },
+      {
+        "questionText": "Kiberxavfsizlikda ijtimoiy muhandislik (Social engineering) nima?",
+        "options": ["Kodni buzish orqali xakerlik", "Odamlarning psixologiyasidan foydalanib, ularni xato qilishga va maxfiy ma'lumotlarni berishga undash", "Yangi xavfsizlik dasturlari yozish", "Kompyuterni qizishdan asrash"],
+        "correctAnswer": "Odamlarning psixologiyasidan foydalanib, ularni xato qilishga va maxfiy ma'lumotlarni berishga undash"
+      },
+      {
+        "questionText": "Ikki faktorli autentifikatsiya (2FA) nima uchun kerak?",
+        "options": ["Parol esdan chiqqanda o'chirish uchun", "Foydalanuvchi paroldan tashqari yana bir tasdiqlash usuli (masalan SMS kod) orqali hisob xavfsizligini oshirish uchun", "Internet narxini kamaytirish uchun", "Ikki xil kompyuterdan foydalanish uchun"],
+        "correctAnswer": "Foydalanuvchi paroldan tashqari yana bir tasdiqlash usuli (masalan SMS kod) orqali hisob xavfsizligini oshirish uchun"
+      },
+      {
+        "questionText": "Foydalanuvchining klaviaturada qanday tugmalarni bosayotganini yashirincha yozib oluvchi dastur nima deb ataladi?",
+        "options": ["Keylogger", "Adware", "Firewall", "Antivirus"],
+        "correctAnswer": "Keylogger"
+      },
+      {
+        "questionText": "Malware umumiy qilib qanday tushuniladi?",
+        "options": ["Antivirus dasturlari", "Barcha turdagi yaramas, zararli dasturiy ta'minotlar yig'indisi", "Faqat Windows operatsion tizimi", "Ma'lumotlar bazasi turi"],
+        "correctAnswer": "Barcha turdagi yaramas, zararli dasturiy ta'minotlar yig'indisi"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Salomatlik va xavfsizlik.",
+    "description": "Axborot texnologiyalaridan foydalanishda inson salomatligini saqlash qoidalari, ergonomika masalalari.",
+    "icon": "🏥",
+    "color": "#14b8a6",
+    "quizzes": [
+      {
+        "questionText": "Kompyuter oldida uzoq vaqt o'tirishning qanday salbiy oqibati bo'lishi mumkin?",
+        "options": ["Qon aylanishining yaxshilanishi", "Bel va bo'yin kasalliklari, ko'z nurining pasayishi", "Xotiraning kuchayishi", "Mushaklarning baquvvat bo'lishi"],
+        "correctAnswer": "Bel va bo'yin kasalliklari, ko'z nurining pasayishi"
+      },
+      {
+        "questionText": "Ergonomika nima?",
+        "options": ["Yangi kompyuter detallarini yaratish fani", "Insonning ish joyi va asbob-uskunalari uning qulayligi va sog'lig'i uchun to'g'ri moslashtirilishini o'rganuvchi soha", "Internet tarmog'i arxitekturasi", "Viruslardan himoyalanish usuli"],
+        "correctAnswer": "Insonning ish joyi va asbob-uskunalari uning qulayligi va sog'lig'i uchun to'g'ri moslashtirilishini o'rganuvchi soha"
+      },
+      {
+        "questionText": "Monitor ekranining joylashuvi qanday bo'lishi tavsiya etiladi?",
+        "options": ["Ko'z darajasida yoki biroz pastroqda, taxminan qo'l yetadigan masofada", "Juda yaqin, yuzdan 10 sm uzoqlikda", "Boshdan ancha balandda", "Stolning tagida"],
+        "correctAnswer": "Ko'z darajasida yoki biroz pastroqda, taxminan qo'l yetadigan masofada"
+      },
+      {
+        "questionText": "RSI (Repetitive Strain Injury - Takrorlanuvchi zo'riqish shikastlanishi) ning oldini olish uchun nima qilish kerak?",
+        "options": ["Hech qachon klaviaturadan foydalanmaslik", "Muntazam ravishda tanaffus qilish va bilaklar uchun qulay tayanchdan foydalanish", "Sichqonchani kuch bilan bosish", "Doim bitta barmoqda yozish"],
+        "correctAnswer": "Muntazam ravishda tanaffus qilish va bilaklar uchun qulay tayanchdan foydalanish"
+      },
+      {
+        "questionText": "Ko'z charchog'ini (Computer Vision Syndrome) kamaytirishning 20-20-20 qoidasi nima?",
+        "options": ["Har 20 daqiqada 20 metr nariga 20 soniya qarab turish", "Har 20 daqiqada 20 marta ko'zni yumib ochish", "20 soat ishlab, 20 soat uxlash", "Har 20 soniyada monitordan ko'zni uzish"],
+        "correctAnswer": "Har 20 daqiqada 20 metr nariga 20 soniya qarab turish"
+      },
+      {
+        "questionText": "Nima uchun kompyuter xonasi yaxshi shamollatilishi kerak?",
+        "options": ["Monitor yaxshiroq ko'rinishi uchun", "Elektron qurilmalar ajratadigan issiqlikni kamaytirish va toza havo bilan ta'minlash uchun", "Ovozni pasaytirish uchun", "Printer tezroq ishlashi uchun"],
+        "correctAnswer": "Elektron qurilmalar ajratadigan issiqlikni kamaytirish va toza havo bilan ta'minlash uchun"
+      },
+      {
+        "questionText": "Noutbukdan tizzada foydalanishning qanday xavfi bor?",
+        "options": ["Tezroq quvvat oladi", "Qurilmaning qizib ketishi va tana terisiga zarar yetishi mumkin", "Wi-Fi yaxshi ushlaydi", "Hech qanday xavfi yo'q"],
+        "correctAnswer": "Qurilmaning qizib ketishi va tana terisiga zarar yetishi mumkin"
+      },
+      {
+        "questionText": "Ish o'rnida kabellarning xavfsizligi qanday ta'minlanishi kerak?",
+        "options": ["Ular ochiq holatda pol bo'ylab yotishi kerak", "Ular ehtiyotkorlik bilan yig'ilib, odamlar o'tadigan joylardan chetga yashirilishi kerak (qoqinib ketmaslik uchun)", "Ular stulga bog'lab qo'yilishi kerak", "Faqat simsiz qurilmalar ishlatilishi shart"],
+        "correctAnswer": "Ular ehtiyotkorlik bilan yig'ilib, odamlar o'tadigan joylardan chetga yashirilishi kerak (qoqinib ketmaslik uchun)"
+      },
+      {
+        "questionText": "Kompyuter ishlashida ko'zning quruqlashishini oldini olish uchun nima qilinadi?",
+        "options": ["Monitorni yorqin qilish", "Tez-tez pirpiratish (ko'zni ochib-yumish) va maxsus ko'z tomchilari ishlatish", "Qorong'i xonada ishlash", "Kozoynaksiz ishlash"],
+        "correctAnswer": "Tez-tez pirpiratish (ko'zni ochib-yumish) va maxsus ko'z tomchilari ishlatish"
+      },
+      {
+        "questionText": "O'tirish holatida belning to'g'ri burchagi qanday bo'lishi tavsiya etiladi?",
+        "options": ["Taxminan 90-100 gradus va orqa suyanchig'iga to'liq suyanish", "180 gradus yotib olish", "45 gradus egilish", "Stulning faqat uchida o'tirish"],
+        "correctAnswer": "Taxminan 90-100 gradus va orqa suyanchig'iga to'liq suyanish"
+      }
+    ]
+  }
+]

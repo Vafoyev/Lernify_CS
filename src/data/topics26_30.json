@@ -1,0 +1,97 @@
+[
+  {
+    "id": 26,
+    "title": "Grafik va diagrammalar. Modellashtirish. Simulyatorlar.",
+    "description": "Kompyuter modellari, simulyatsiya va ularning amaliy qo'llanilishi.",
+    "icon": "📉",
+    "color": "#9333ea",
+    "quizzes": [
+      {"questionText": "Kompyuter modeli nima?", "options": ["Haqiqiy ob'ekt", "Real ob'ekt yoki jarayonning kompyuterdagi soddalashtirilgan tasviri", "O'yin", "Rasm"], "correctAnswer": "Real ob'ekt yoki jarayonning kompyuterdagi soddalashtirilgan tasviri"},
+      {"questionText": "Simulyator nima?", "options": ["Oddiy dastur", "Haqiqiy vaziyatni sun'iy muhitda takrorlovchi dastur", "Matn muharriri", "Brauzer"], "correctAnswer": "Haqiqiy vaziyatni sun'iy muhitda takrorlovchi dastur"},
+      {"questionText": "Simulyator qayerda ishlatiladi?", "options": ["Faqat o'yinlarda", "Uchuvchilarni tayyorlash, tibbiy mashqlar", "Faqat musiqa", "Faqat matn yozish"], "correctAnswer": "Uchuvchilarni tayyorlash, tibbiy mashqlar"},
+      {"questionText": "Modellashtirishning afzalligi?", "options": ["Qimmat", "Real tajribadan xavfsiz va arzon", "Doim noto'g'ri", "Sekin"], "correctAnswer": "Real tajribadan xavfsiz va arzon"},
+      {"questionText": "Scatter diagram (Nuqtali diagramma) nima?", "options": ["Doiraviy diagramma", "Ikki o'zgaruvchi orasidagi bog'liqlikni nuqtalar orqali ko'rsatadi", "Chiziqli diagramma", "Ustunli diagramma"], "correctAnswer": "Ikki o'zgaruvchi orasidagi bog'liqlikni nuqtalar orqali ko'rsatadi"},
+      {"questionText": "Modellashtirish qachon zarur?", "options": ["Hech qachon", "Real tajriba xavfli, qimmat yoki imkonsiz bo'lganda", "Faqat kichik masalalarda", "Faqat matematikada"], "correctAnswer": "Real tajriba xavfli, qimmat yoki imkonsiz bo'lganda"},
+      {"questionText": "What-if tahlili nima?", "options": ["Hech narsa", "Bir o'zgaruvchini o'zgartirib, natijaga ta'sirini ko'rish", "Faylni o'chirish", "Jadval yaratish"], "correctAnswer": "Bir o'zgaruvchini o'zgartirib, natijaga ta'sirini ko'rish"},
+      {"questionText": "3D modellashtirish dasturiga misol?", "options": ["Microsoft Word", "Blender, AutoCAD", "Notepad", "Calculator"], "correctAnswer": "Blender, AutoCAD"},
+      {"questionText": "Modelning kamchiligi nima?", "options": ["Juda aniq", "Soddalashtirilgan bo'lgani uchun haqiqatdan farq qilishi mumkin", "Hech qanday kamchiligi yo'q", "Juda tez"], "correctAnswer": "Soddalashtirilgan bo'lgani uchun haqiqatdan farq qilishi mumkin"},
+      {"questionText": "Ob-havo prognozida qaysi usul ishlatiladi?", "options": ["Faqat taxmin", "Kompyuter modellashtirish", "Faqat kuzatish", "Faqat tajriba"], "correctAnswer": "Kompyuter modellashtirish"}
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Maʼlumotlar bazasini yaratish. Maʼlumot turlari. Bogʻlanishlar.",
+    "description": "Ma'lumotlar bazasi tushunchasi, jadvallar, maydon turlari va bog'lanish turlari.",
+    "icon": "🗄️",
+    "color": "#0d9488",
+    "quizzes": [
+      {"questionText": "Ma'lumotlar bazasi (Database) nima?", "options": ["Bitta fayl", "Tartibli va tizimlashtirilgan ma'lumotlar to'plami", "Rasm albomi", "Video fayl"], "correctAnswer": "Tartibli va tizimlashtirilgan ma'lumotlar to'plami"},
+      {"questionText": "Jadval (Table) da qator (record) nima?", "options": ["Ustun nomi", "Bitta ob'ekt haqidagi to'liq ma'lumot", "Jadval nomi", "Ma'lumot turi"], "correctAnswer": "Bitta ob'ekt haqidagi to'liq ma'lumot"},
+      {"questionText": "Maydon (Field) nima?", "options": ["Butun jadval", "Ma'lum bir xususiyatni saqlovchi ustun", "Qator raqami", "Jadval nomi"], "correctAnswer": "Ma'lum bir xususiyatni saqlovchi ustun"},
+      {"questionText": "Birga-bir (One-to-one) bog'lanish nima?", "options": ["Ko'p qator bitta qatorga", "Bitta yozuv faqat bitta boshqa yozuvga bog'langan", "Hech qanday bog'lanish yo'q", "Ko'pga ko'p"], "correctAnswer": "Bitta yozuv faqat bitta boshqa yozuvga bog'langan"},
+      {"questionText": "Birga-ko'p (One-to-many) bog'lanishga misol?", "options": ["Bir o'quvchi — bir maktab", "Bitta o'qituvchi ko'p o'quvchilarga dars beradi", "Hech qanday misol yo'q", "Ko'p o'qituvchi bitta dars"], "correctAnswer": "Bitta o'qituvchi ko'p o'quvchilarga dars beradi"},
+      {"questionText": "Ko'pga-ko'p (Many-to-many) bog'lanish nima?", "options": ["Bitta bittaga", "Har ikkala jadvaldagi yozuvlar bir-biriga ko'p bog'langan", "Bog'lanish yo'q", "Faqat bitta jadval"], "correctAnswer": "Har ikkala jadvaldagi yozuvlar bir-biriga ko'p bog'langan"},
+      {"questionText": "Integer ma'lumot turi nima saqlaydi?", "options": ["Matn", "Butun sonlar", "Rasmlar", "Videolar"], "correctAnswer": "Butun sonlar"},
+      {"questionText": "VARCHAR ma'lumot turi nima?", "options": ["Butun son", "O'zgaruvchan uzunlikdagi matn", "Sana", "Mantiqiy qiymat"], "correctAnswer": "O'zgaruvchan uzunlikdagi matn"},
+      {"questionText": "Boolean ma'lumot turi qanday qiymatlarni saqlaydi?", "options": ["Faqat sonlar", "True (Rost) yoki False (Yolg'on)", "Faqat matn", "Faqat sanalar"], "correctAnswer": "True (Rost) yoki False (Yolg'on)"},
+      {"questionText": "DBMS nima?", "options": ["Dasturlash tili", "Ma'lumotlar bazasini boshqarish tizimi", "Internet brauzeri", "Operatsion tizim"], "correctAnswer": "Ma'lumotlar bazasini boshqarish tizimi"}
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Bogʻlanishlar yaratish. Oddiy va relyatsion maʼlumotlar bazasi.",
+    "description": "Relyatsion va oddiy yozuvli bazalar o'rtasidagi farq, bog'lanishlar yaratish usullari.",
+    "icon": "🔗",
+    "color": "#b45309",
+    "quizzes": [
+      {"questionText": "Relyatsion ma'lumotlar bazasi nima?", "options": ["Bitta jadvaldan iborat baza", "Bir-biriga bog'langan jadvallar to'plamidan iborat baza", "Faqat rasm saqlash", "Matn fayli"], "correctAnswer": "Bir-biriga bog'langan jadvallar to'plamidan iborat baza"},
+      {"questionText": "Oddiy yozuvli (Flat file) baza nima?", "options": ["Ko'p jadvaldan iborat", "Bitta jadvalda barcha ma'lumot saqlanadigan baza", "Internet baza", "Bulutli baza"], "correctAnswer": "Bitta jadvalda barcha ma'lumot saqlanadigan baza"},
+      {"questionText": "Relyatsion bazaning afzalligi?", "options": ["Ma'lumot takrorlanishi ko'p", "Ma'lumot takrorlanishi kam, yaxlitlik saqlanadi", "Sekin ishlaydi", "Murakkab emas"], "correctAnswer": "Ma'lumot takrorlanishi kam, yaxlitlik saqlanadi"},
+      {"questionText": "Flat file bazaning kamchiligi?", "options": ["Juda tez", "Ma'lumot takrorlanishi va nomuvofiqlik xavfi yuqori", "Bog'lanishlar ko'p", "Juda xavfsiz"], "correctAnswer": "Ma'lumot takrorlanishi va nomuvofiqlik xavfi yuqori"},
+      {"questionText": "Bog'lanish (Relationship) yaratish uchun nima kerak?", "options": ["Rasm", "Ikkala jadvalda umumiy maydon (kalit)", "Matn fayli", "Printer"], "correctAnswer": "Ikkala jadvalda umumiy maydon (kalit)"},
+      {"questionText": "Normalizatsiya nima?", "options": ["Ma'lumotni o'chirish", "Ma'lumot takrorlanishini kamaytirish uchun jadvallarni tashkil qilish jarayoni", "Kompyuterni o'chirish", "Internet tezligini oshirish"], "correctAnswer": "Ma'lumot takrorlanishini kamaytirish uchun jadvallarni tashkil qilish jarayoni"},
+      {"questionText": "Relyatsion bazaga misol?", "options": ["Matn fayli", "MySQL, PostgreSQL", "Paint", "Calculator"], "correctAnswer": "MySQL, PostgreSQL"},
+      {"questionText": "Qaysi biri flat file bazaga misol?", "options": ["MySQL", "Oddiy CSV yoki Excel fayli", "Oracle", "SQL Server"], "correctAnswer": "Oddiy CSV yoki Excel fayli"},
+      {"questionText": "Ma'lumot yaxlitligi (Data integrity) nima?", "options": ["Ma'lumotni o'chirish", "Ma'lumotlarning aniqligi va izchilligi saqlanishi", "Internet tezligi", "Kompyuter tezligi"], "correctAnswer": "Ma'lumotlarning aniqligi va izchilligi saqlanishi"},
+      {"questionText": "Relyatsion bazada nechta jadval bo'lishi mumkin?", "options": ["Faqat bitta", "Ko'p jadvallar bo'lishi mumkin", "Faqat ikkita", "Faqat uchta"], "correctAnswer": "Ko'p jadvallar bo'lishi mumkin"}
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Relyatsion baza yaratish. Kalitlar: birlamchi, murakkab, tashqi.",
+    "description": "Birlamchi kalit, murakkab kalit va tashqi kalit tushunchalari hamda ularning vazifalari.",
+    "icon": "🔑",
+    "color": "#4f46e5",
+    "quizzes": [
+      {"questionText": "Birlamchi kalit (Primary Key) nima?", "options": ["Istalgan maydon", "Har bir yozuvni noyob (unikal) tarzda aniqlaydigan maydon", "Parol", "Jadval nomi"], "correctAnswer": "Har bir yozuvni noyob (unikal) tarzda aniqlaydigan maydon"},
+      {"questionText": "Birlamchi kalitning asosiy xususiyati?", "options": ["Takrorlanishi mumkin", "Noyob va bo'sh bo'lmasligi kerak (NOT NULL)", "Istalgan qiymat bo'lishi mumkin", "Faqat son bo'ladi"], "correctAnswer": "Noyob va bo'sh bo'lmasligi kerak (NOT NULL)"},
+      {"questionText": "Tashqi kalit (Foreign Key) nima?", "options": ["Birinchi ustun", "Boshqa jadvalning birlamchi kalitiga havola qiluvchi maydon", "Parol", "Jadval nomi"], "correctAnswer": "Boshqa jadvalning birlamchi kalitiga havola qiluvchi maydon"},
+      {"questionText": "Tashqi kalit nima uchun kerak?", "options": ["Jadval yaratish", "Jadvallar orasidagi bog'lanishni ta'minlash", "Ma'lumotni o'chirish", "Rasm qo'shish"], "correctAnswer": "Jadvallar orasidagi bog'lanishni ta'minlash"},
+      {"questionText": "Murakkab kalit (Composite Key) nima?", "options": ["Bitta maydon", "Ikki yoki undan ortiq maydondan tashkil topgan birlamchi kalit", "Parol", "Tashqi kalit"], "correctAnswer": "Ikki yoki undan ortiq maydondan tashkil topgan birlamchi kalit"},
+      {"questionText": "Murakkab kalit qachon ishlatiladi?", "options": ["Doim", "Bitta maydon yozuvlarni noyob aniqlay olmasa", "Hech qachon", "Faqat kichik bazalarda"], "correctAnswer": "Bitta maydon yozuvlarni noyob aniqlay olmasa"},
+      {"questionText": "Auto-increment nima?", "options": ["Matnni o'zgartirish", "Birlamchi kalit qiymatini avtomatik oshirish", "Jadval o'chirish", "Rasm qo'shish"], "correctAnswer": "Birlamchi kalit qiymatini avtomatik oshirish"},
+      {"questionText": "Birlamchi kalit NULL bo'lishi mumkinmi?", "options": ["Ha", "Yo'q, hech qachon", "Ba'zan", "Faqat matnda"], "correctAnswer": "Yo'q, hech qachon"},
+      {"questionText": "Kandidat kalit (Candidate Key) nima?", "options": ["Faqat tashqi kalit", "Birlamchi kalit bo'lishga nomzod maydonlar", "Parol", "Jadval nomi"], "correctAnswer": "Birlamchi kalit bo'lishga nomzod maydonlar"},
+      {"questionText": "Tashqi kalit takrorlanishi mumkinmi?", "options": ["Yo'q", "Ha, bir nechta yozuvda bir xil tashqi kalit bo'lishi mumkin", "Hech qachon", "Faqat bitta marta"], "correctAnswer": "Ha, bir nechta yozuvda bir xil tashqi kalit bo'lishi mumkin"}
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Bogʻlanishlar yaxlitligi. Validatsiya. Murakkab querylar.",
+    "description": "Ma'lumotlar bazasida yaxlitlik, validatsiya va SQL so'rovlari bilan ishlash.",
+    "icon": "🧩",
+    "color": "#be185d",
+    "quizzes": [
+      {"questionText": "Referensial yaxlitlik (Referential integrity) nima?", "options": ["Ma'lumotni o'chirish", "Tashqi kalitlar doim mavjud birlamchi kalitlarga havola qilishini ta'minlash", "Jadval yaratish", "Rasm qo'shish"], "correctAnswer": "Tashqi kalitlar doim mavjud birlamchi kalitlarga havola qilishini ta'minlash"},
+      {"questionText": "SQL nima?", "options": ["Dasturlash tili", "Ma'lumotlar bazasini boshqarish uchun maxsus so'rov tili", "Operatsion tizim", "Brauzer"], "correctAnswer": "Ma'lumotlar bazasini boshqarish uchun maxsus so'rov tili"},
+      {"questionText": "SELECT so'rovi nima qiladi?", "options": ["Ma'lumot o'chiradi", "Jadvaldan ma'lumotlarni tanlaydi va ko'rsatadi", "Jadval yaratadi", "Ma'lumot qo'shadi"], "correctAnswer": "Jadvaldan ma'lumotlarni tanlaydi va ko'rsatadi"},
+      {"questionText": "WHERE kalit so'zi nima uchun?", "options": ["Jadval yaratish", "So'rovga shart qo'shish va filtrlash", "Ma'lumot o'chirish", "Jadval nomi berish"], "correctAnswer": "So'rovga shart qo'shish va filtrlash"},
+      {"questionText": "JOIN nima?", "options": ["Jadval o'chirish", "Ikki yoki undan ortiq jadvaldan ma'lumotlarni birlashtirish", "Faqat bitta jadval", "Matn yozish"], "correctAnswer": "Ikki yoki undan ortiq jadvaldan ma'lumotlarni birlashtirish"},
+      {"questionText": "Ichki so'rov (Subquery) nima?", "options": ["Oddiy so'rov", "Boshqa so'rov ichida joylashgan so'rov", "Jadval nomi", "Ma'lumot turi"], "correctAnswer": "Boshqa so'rov ichida joylashgan so'rov"},
+      {"questionText": "GROUP BY nima uchun ishlatiladi?", "options": ["Saralash", "Ma'lumotlarni guruhlash va har bir guruh uchun jamlanma hisoblash", "Ma'lumot o'chirish", "Jadval yaratish"], "correctAnswer": "Ma'lumotlarni guruhlash va har bir guruh uchun jamlanma hisoblash"},
+      {"questionText": "ORDER BY nima qiladi?", "options": ["Ma'lumot o'chiradi", "Natijalarni belgilangan tartibda saralaydi", "Jadval yaratadi", "Kalit qo'shadi"], "correctAnswer": "Natijalarni belgilangan tartibda saralaydi"},
+      {"questionText": "COUNT() funksiyasi nima?", "options": ["Yig'indini hisoblaydi", "Yozuvlar sonini sanaydi", "O'rtachani hisoblaydi", "Eng katta qiymatni topadi"], "correctAnswer": "Yozuvlar sonini sanaydi"},
+      {"questionText": "CASCADE DELETE nima?", "options": ["Faqat bitta yozuv o'chirish", "Asosiy yozuv o'chirilganda bog'langan barcha yozuvlar ham o'chiriladi", "Hech narsa o'chirilmaydi", "Faqat jadval nomi o'zgaradi"], "correctAnswer": "Asosiy yozuv o'chirilganda bog'langan barcha yozuvlar ham o'chiriladi"}
+    ]
+  }
+]

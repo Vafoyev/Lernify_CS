@@ -1,17 +1,19 @@
 import { NavLink } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {
-  Rocket, BookOpen, Brain, Code2, Trophy, Medal, Settings, X, Menu
+  Rocket, BookOpen, Brain, Code2, Trophy, Medal, Settings, X, Menu, UserCircle
 } from 'lucide-react'
+import { useAppStore } from '../store/useAppStore'
 
 const navItems = [
-  { to: '/', icon: Rocket, label: '🚀 Dashboard' },
-  { to: '/curriculum', icon: BookOpen, label: '📚 Curriculum' },
-  { to: '/quizzes', icon: Brain, label: '🧠 Quizzes' },
-  { to: '/code-lab', icon: Code2, label: '💻 Code Lab' },
-  { to: '/leaderboard', icon: Trophy, label: '🏆 Leaderboard' },
-  { to: '/achievements', icon: Medal, label: '🎖 Achievements' },
-  { to: '/settings', icon: Settings, label: '⚙️ Settings' },
+  { to: '/', icon: Rocket, label: '🚀 Bosh sahifa' },
+  { to: '/curriculum', icon: BookOpen, label: '📚 O\'quv rejasi' },
+  { to: '/quizzes', icon: Brain, label: '🧠 Testlar' },
+  { to: '/code-lab', icon: Code2, label: '💻 Kod laboratoriyasi' },
+  { to: '/leaderboard', icon: Trophy, label: '🏆 Reyting' },
+  { to: '/achievements', icon: Medal, label: '🎖 Yutuqlar' },
+  { to: '/profile', icon: UserCircle, label: '👤 Profil' },
+  { to: '/settings', icon: Settings, label: '⚙️ Sozlamalar' },
 ]
 
 interface SidebarProps {
@@ -20,6 +22,9 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ isOpen, onToggle }: SidebarProps) {
+  const { user, teachers } = useAppStore()
+  const teacher = user ? teachers.find(t => t.id === user.teacherId) : null
+
   return (
     <>
       {/* Mobile overlay */}
@@ -48,11 +53,11 @@ export default function Sidebar({ isOpen, onToggle }: SidebarProps) {
           className="mb-10 px-2"
         >
           <h1 className="text-2xl font-extrabold tracking-tight">
-            <span className="cyber-gradient-text">Learnify</span>
+            <span className="cyber-gradient-text">Lernify</span>
             <span className="text-white/80 ml-1">CS</span>
           </h1>
           <p className="text-[11px] text-white/30 mt-1 tracking-widest uppercase">
-            Cyber Learning Platform
+            O'quv platformasi
           </p>
         </motion.div>
 
@@ -80,16 +85,33 @@ export default function Sidebar({ isOpen, onToggle }: SidebarProps) {
           ))}
         </nav>
 
+        {/* User info at bottom */}
         <div className="px-2 pt-4 border-t border-white/5">
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyber-glow/20 to-cyber-purple/20 flex items-center justify-center text-sm font-bold text-cyber-glow">
-              CS
+          {user ? (
+            <NavLink to="/profile" className="flex items-center gap-3 group">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-glow/20 to-purple-500/20 flex items-center justify-center text-xs font-bold text-cyan-400 border border-white/10">
+                {user.firstName[0]}{user.lastName[0]}
+              </div>
+              <div className="min-w-0">
+                <p className="text-xs font-medium text-white/70 truncate group-hover:text-white transition-colors">
+                  {user.firstName} {user.lastName}
+                </p>
+                <p className="text-[10px] text-white/30 truncate">
+                  {teacher ? teacher.name : 'O\'quvchi'}
+                </p>
+              </div>
+            </NavLink>
+          ) : (
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyber-glow/20 to-cyber-purple/20 flex items-center justify-center text-sm font-bold text-cyber-glow">
+                CS
+              </div>
+              <div>
+                <p className="text-xs font-medium text-white/70">O'quvchi</p>
+                <p className="text-[10px] text-white/30">v1.0.0</p>
+              </div>
             </div>
-            <div>
-              <p className="text-xs font-medium text-white/70">Student</p>
-              <p className="text-[10px] text-white/30">v1.0.0</p>
-            </div>
-          </div>
+          )}
         </div>
       </aside>
     </>

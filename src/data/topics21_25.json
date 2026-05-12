@@ -1,0 +1,97 @@
+[
+  {
+    "id": 21,
+    "title": "Yaxlitlash, sana/vaqt, shartli va qidirish funksiyalari.",
+    "description": "Excel da turli xil funksiyalar: ROUND, DATE, IF, VLOOKUP va boshqalar.",
+    "icon": "📐",
+    "color": "#0891b2",
+    "quizzes": [
+      {"questionText": "ROUND funksiyasi nima qiladi?", "options": ["Sonni o'chiradi", "Sonni belgilangan kasrgacha yaxlitlaydi", "Matnni o'zgartiradi", "Rasm qo'shadi"], "correctAnswer": "Sonni belgilangan kasrgacha yaxlitlaydi"},
+      {"questionText": "TODAY() funksiyasi nima qaytaradi?", "options": ["Kechagi sana", "Bugungi sanani", "Faqat yil", "Faqat oy"], "correctAnswer": "Bugungi sanani"},
+      {"questionText": "IF funksiyasi qanday ishlaydi?", "options": ["Doim bitta javob beradi", "Shartni tekshiradi, to'g'ri bo'lsa bir qiymat, noto'g'ri bo'lsa boshqa qiymat qaytaradi", "Sonlarni yig'adi", "Faqat matn bilan ishlaydi"], "correctAnswer": "Shartni tekshiradi, to'g'ri bo'lsa bir qiymat, noto'g'ri bo'lsa boshqa qiymat qaytaradi"},
+      {"questionText": "VLOOKUP funksiyasi nima?", "options": ["Vertikal jadvaldan qiymat qidiradi", "Faqat o'chiradi", "Rasm qo'shadi", "Jadval yaratadi"], "correctAnswer": "Vertikal jadvaldan qiymat qidiradi"},
+      {"questionText": "NOW() funksiyasi nimani ko'rsatadi?", "options": ["Faqat sana", "Joriy sana va vaqtni", "Faqat yil", "Hech narsa"], "correctAnswer": "Joriy sana va vaqtni"},
+      {"questionText": "ROUNDUP funksiyasi qanday yaxlitlaydi?", "options": ["Pastga", "Doim yuqoriga yaxlitlaydi", "Yaxlitlamaydi", "O'chiradi"], "correctAnswer": "Doim yuqoriga yaxlitlaydi"},
+      {"questionText": "HLOOKUP ning VLOOKUP dan farqi?", "options": ["Farqi yo'q", "HLOOKUP gorizontal, VLOOKUP vertikal qidiradi", "HLOOKUP sekinroq", "VLOOKUP ishlamaydi"], "correctAnswer": "HLOOKUP gorizontal, VLOOKUP vertikal qidiradi"},
+      {"questionText": "=IF(A1>10,\"Katta\",\"Kichik\") formulasi A1=5 bo'lsa nima qaytaradi?", "options": ["Katta", "Kichik", "5", "Xato"], "correctAnswer": "Kichik"},
+      {"questionText": "YEAR(TODAY()) nima qaytaradi?", "options": ["Bugungi kunni", "Joriy yilni", "Oyni", "Soatni"], "correctAnswer": "Joriy yilni"},
+      {"questionText": "INT funksiyasi nima qiladi?", "options": ["Sonning butun qismini qaytaradi", "Sonni ko'paytiradi", "Matn yozadi", "Rasm qo'shadi"], "correctAnswer": "Sonning butun qismini qaytaradi"}
+    ]
+  },
+  {
+    "id": 22,
+    "title": "INDEX va MATCH funksiyalari. Shartli statistik funksiyalar.",
+    "description": "Murakkab qidirish va shartli hisoblash funksiyalari: COUNTIF, SUMIF va boshqalar.",
+    "icon": "🔍",
+    "color": "#ca8a04",
+    "quizzes": [
+      {"questionText": "INDEX funksiyasi nima qiladi?", "options": ["Faylni saqlaydi", "Berilgan qator va ustun bo'yicha katakdagi qiymatni qaytaradi", "Jadval o'chiradi", "Rasm qo'shadi"], "correctAnswer": "Berilgan qator va ustun bo'yicha katakdagi qiymatni qaytaradi"},
+      {"questionText": "MATCH funksiyasi nima qaytaradi?", "options": ["Katak qiymatini", "Qidirilayotgan qiymatning oraliq ichidagi pozitsiyasini (tartib raqamini)", "Yig'indini", "O'rtachani"], "correctAnswer": "Qidirilayotgan qiymatning oraliq ichidagi pozitsiyasini (tartib raqamini)"},
+      {"questionText": "INDEX va MATCH birgalikda nima uchun ishlatiladi?", "options": ["Rasm qo'shish", "VLOOKUP ga o'xshash, lekin moslashuvchan qidirish uchun", "Jadval o'chirish", "Matn yozish"], "correctAnswer": "VLOOKUP ga o'xshash, lekin moslashuvchan qidirish uchun"},
+      {"questionText": "COUNTIF funksiyasi nima?", "options": ["Yig'indini hisoblaydi", "Shartga mos kataklar sonini sanaydi", "Eng katta sonni topadi", "O'rtachani hisoblaydi"], "correctAnswer": "Shartga mos kataklar sonini sanaydi"},
+      {"questionText": "SUMIF funksiyasi nima qiladi?", "options": ["Barcha sonlarni yig'adi", "Faqat shartga mos kataklar qiymatini yig'adi", "Sonlarni o'chiradi", "Matn yozadi"], "correctAnswer": "Faqat shartga mos kataklar qiymatini yig'adi"},
+      {"questionText": "AVERAGEIF nima qiladi?", "options": ["Barcha o'rtacha", "Faqat shartga mos kataklar o'rtachasini hisoblaydi", "Eng kichik son", "Matn uzunligi"], "correctAnswer": "Faqat shartga mos kataklar o'rtachasini hisoblaydi"},
+      {"questionText": "=COUNTIF(A1:A10,\">5\") nima sanaydi?", "options": ["5 ga teng kataklar", "5 dan katta qiymatli kataklar sonini", "Barcha kataklar", "Bo'sh kataklar"], "correctAnswer": "5 dan katta qiymatli kataklar sonini"},
+      {"questionText": "INDEX va MATCH VLOOKUP dan qanday afzal?", "options": ["Sekinroq", "Chapga ham qidira oladi, ustun tartibiga bog'liq emas", "Faqat sonlar bilan ishlaydi", "Farqi yo'q"], "correctAnswer": "Chapga ham qidira oladi, ustun tartibiga bog'liq emas"},
+      {"questionText": "COUNTIFS funksiyasi COUNTIF dan qanday farq qiladi?", "options": ["Farqi yo'q", "COUNTIFS bir nechta shartni tekshiradi", "COUNTIFS sekinroq", "COUNTIF yangi versiya"], "correctAnswer": "COUNTIFS bir nechta shartni tekshiradi"},
+      {"questionText": "=SUMIF(B1:B10,\"Olma\",C1:C10) nima qiladi?", "options": ["B ustundagi barcha sonlarni yig'adi", "B ustunda 'Olma' yozilgan qatorlardagi C ustun qiymatlarini yig'adi", "Hamma narsani o'chiradi", "Faqat matn chiqaradi"], "correctAnswer": "B ustunda 'Olma' yozilgan qatorlardagi C ustun qiymatlarini yig'adi"}
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Validatsiya qoidalari. Elektron jadvalga qoʻllanadigan validatsiya.",
+    "description": "Ma'lumot kiritishda xatolarni oldini olish uchun validatsiya qoidalarini o'rnatish.",
+    "icon": "✅",
+    "color": "#059669",
+    "quizzes": [
+      {"questionText": "Validatsiya (Data Validation) nima?", "options": ["Ma'lumotni o'chirish", "Kiritilayotgan ma'lumot belgilangan qoidalarga mosligini tekshirish", "Jadval yaratish", "Rasm qo'shish"], "correctAnswer": "Kiritilayotgan ma'lumot belgilangan qoidalarga mosligini tekshirish"},
+      {"questionText": "Validatsiya qoidalariga misol?", "options": ["Istalgan qiymat kiritish", "Faqat 1 dan 100 gacha sonlar kiritish mumkin", "Katakni o'chirish", "Jadval nomi o'zgartirish"], "correctAnswer": "Faqat 1 dan 100 gacha sonlar kiritish mumkin"},
+      {"questionText": "Drop-down list validatsiyasi nima?", "options": ["Katakni o'chirish", "Foydalanuvchiga faqat ro'yxatdan tanlash imkonini berish", "Sonlarni yig'ish", "Matnni formatlash"], "correctAnswer": "Foydalanuvchiga faqat ro'yxatdan tanlash imkonini berish"},
+      {"questionText": "Validatsiya xato xabari (Error alert) nima?", "options": ["Kompyuter virusli", "Noto'g'ri ma'lumot kiritilganda foydalanuvchiga ko'rsatiladigan xabar", "Jadval o'chirildi", "Internet uzildi"], "correctAnswer": "Noto'g'ri ma'lumot kiritilganda foydalanuvchiga ko'rsatiladigan xabar"},
+      {"questionText": "Input message nima?", "options": ["Xato xabari", "Katak tanlanganida nima kiritish kerakligi haqida ko'rsatma", "Parol", "Virus"], "correctAnswer": "Katak tanlanganida nima kiritish kerakligi haqida ko'rsatma"},
+      {"questionText": "Uzunlik tekshiruvi (Length check) nima?", "options": ["Jadval uzunligi", "Kiritilgan matn belgilangan uzunlikka mosligini tekshirish", "Ustun kengligi", "Qator balandligi"], "correctAnswer": "Kiritilgan matn belgilangan uzunlikka mosligini tekshirish"},
+      {"questionText": "Tur tekshiruvi (Type check) nima?", "options": ["Kompyuter turi", "Kiritilgan ma'lumot to'g'ri turda (son, matn, sana) ekanligini tekshirish", "Printer turi", "Fayl turi"], "correctAnswer": "Kiritilgan ma'lumot to'g'ri turda (son, matn, sana) ekanligini tekshirish"},
+      {"questionText": "Validatsiya qoidasini bekor qilish mumkinmi?", "options": ["Yo'q, hech qachon", "Ha, sozlamalardan o'chirish mumkin", "Faqat kompyuterni o'chirish kerak", "Faqat yangi fayl yaratish kerak"], "correctAnswer": "Ha, sozlamalardan o'chirish mumkin"},
+      {"questionText": "Qaysi validatsiya turi sanani tekshiradi?", "options": ["Whole number", "Date", "Text length", "List"], "correctAnswer": "Date"},
+      {"questionText": "Validatsiya va verifikatsiyaning farqi?", "options": ["Farqi yo'q", "Validatsiya qoidalarga moslikni, verifikatsiya ma'lumot aniqligini tekshiradi", "Validatsiya sekinroq", "Verifikatsiya faqat sonlar uchun"], "correctAnswer": "Validatsiya qoidalarga moslikni, verifikatsiya ma'lumot aniqligini tekshiradi"}
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Maʼlumotlarni filtrlash va saralash.",
+    "description": "Jadval ma'lumotlarini filtrlash, saralash va kiritilgan ma'lumotlarni tekshirish usullari.",
+    "icon": "🔃",
+    "color": "#2563eb",
+    "quizzes": [
+      {"questionText": "Saralash (Sorting) nima?", "options": ["Ma'lumotni o'chirish", "Ma'lumotlarni ma'lum tartibda (alfavit, son) joylashtirish", "Jadval yaratish", "Rasm qo'shish"], "correctAnswer": "Ma'lumotlarni ma'lum tartibda (alfavit, son) joylashtirish"},
+      {"questionText": "O'sish tartibida saralash (Ascending) nima?", "options": ["Z dan A gacha", "A dan Z gacha yoki kichikdan kattaga", "Tasodifiy tartib", "Teskari tartib"], "correctAnswer": "A dan Z gacha yoki kichikdan kattaga"},
+      {"questionText": "Kamayish tartibida saralash (Descending) nima?", "options": ["A dan Z gacha", "Z dan A gacha yoki kattadan kichikka", "O'sish tartibida", "Alfavit tartibida"], "correctAnswer": "Z dan A gacha yoki kattadan kichikka"},
+      {"questionText": "Filtrlash (Filtering) nima?", "options": ["Barcha ma'lumotni ko'rsatish", "Faqat shartga mos ma'lumotlarni ko'rsatib, qolganlarini yashirish", "Ma'lumotni o'chirish", "Yangi jadval yaratish"], "correctAnswer": "Faqat shartga mos ma'lumotlarni ko'rsatib, qolganlarini yashirish"},
+      {"questionText": "AutoFilter nima?", "options": ["Avtomatik o'chirish", "Ustun sarlavhasidagi tugma orqali tezkor filtrlash imkoniyati", "Avtomatik saqlash", "Avtomatik chop etish"], "correctAnswer": "Ustun sarlavhasidagi tugma orqali tezkor filtrlash imkoniyati"},
+      {"questionText": "Ko'p darajali saralash nima?", "options": ["Faqat bitta ustun bo'yicha", "Avval bitta ustun, keyin ikkinchi ustun bo'yicha saralash", "Saralash mumkin emas", "Faqat raqamlar uchun"], "correctAnswer": "Avval bitta ustun, keyin ikkinchi ustun bo'yicha saralash"},
+      {"questionText": "Filtrlash ma'lumotni o'chiradimi?", "options": ["Ha", "Yo'q, faqat yashiradi", "Ba'zan", "Faqat sonlarni"], "correctAnswer": "Yo'q, faqat yashiradi"},
+      {"questionText": "Maxsus filtr (Custom filter) nima?", "options": ["Oddiy filtr", "Foydalanuvchi o'zi belgilagan shartlar asosida filtrlash", "Faqat matn uchun", "Filtrni o'chirish"], "correctAnswer": "Foydalanuvchi o'zi belgilagan shartlar asosida filtrlash"},
+      {"questionText": "Saralash va filtrlashning farqi?", "options": ["Farqi yo'q", "Saralash tartibni o'zgartiradi, filtrlash mos bo'lmaganlarini yashiradi", "Filtrlash sekinroq", "Saralash faqat raqamlar uchun"], "correctAnswer": "Saralash tartibni o'zgartiradi, filtrlash mos bo'lmaganlarini yashiradi"},
+      {"questionText": "Excel da saralash uchun qaysi menyudan foydalaniladi?", "options": ["File", "Data", "View", "Insert"], "correctAnswer": "Data"}
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Jamlovchi jadvallar va diagrammalar. Import va eksport.",
+    "description": "Pivot table, diagrammalar yaratish hamda ma'lumotlarni import va eksport qilish.",
+    "icon": "📈",
+    "color": "#dc2626",
+    "quizzes": [
+      {"questionText": "Pivot Table (Jamlovchi jadval) nima?", "options": ["Oddiy jadval", "Katta hajmdagi ma'lumotlarni umumlashtirish va tahlil qilish vositasi", "Rasm", "Matn hujjati"], "correctAnswer": "Katta hajmdagi ma'lumotlarni umumlashtirish va tahlil qilish vositasi"},
+      {"questionText": "Diagramma nima uchun ishlatiladi?", "options": ["Matn yozish", "Ma'lumotlarni vizual (ko'rgazmali) tarzda ko'rsatish", "Faylni o'chirish", "Parol qo'yish"], "correctAnswer": "Ma'lumotlarni vizual (ko'rgazmali) tarzda ko'rsatish"},
+      {"questionText": "Ustunli diagramma (Bar chart) nima ko'rsatadi?", "options": ["Faqat foizlar", "Kategoriyalar bo'yicha qiymatlarni ustunlar orqali solishtiradi", "Faqat vaqtni", "Faqat haroratni"], "correctAnswer": "Kategoriyalar bo'yicha qiymatlarni ustunlar orqali solishtiradi"},
+      {"questionText": "Doiraviy diagramma (Pie chart) nima ko'rsatadi?", "options": ["Vaqt bo'yicha o'zgarish", "Yig'indining har bir qismining ulushini (foizini)", "Faqat sonlar", "Faqat matn"], "correctAnswer": "Yig'indining har bir qismining ulushini (foizini)"},
+      {"questionText": "Ma'lumotlarni import qilish nima?", "options": ["Ma'lumotni o'chirish", "Tashqi manbadan ma'lumotlarni jadvalga kiritish", "Jadval yaratish", "Kompyuterni o'chirish"], "correctAnswer": "Tashqi manbadan ma'lumotlarni jadvalga kiritish"},
+      {"questionText": "Ma'lumotlarni eksport qilish nima?", "options": ["Faylni o'chirish", "Jadvaldagi ma'lumotlarni boshqa formatda (CSV, PDF) saqlash", "Internet uzish", "Printer sozlash"], "correctAnswer": "Jadvaldagi ma'lumotlarni boshqa formatda (CSV, PDF) saqlash"},
+      {"questionText": "CSV fayl nima?", "options": ["Rasm fayli", "Vergul bilan ajratilgan qiymatlar fayli", "Video fayl", "Dastur fayli"], "correctAnswer": "Vergul bilan ajratilgan qiymatlar fayli"},
+      {"questionText": "Chiziqli diagramma (Line chart) nima uchun mos?", "options": ["Foizlarni ko'rsatish", "Vaqt davomida o'zgarishni kuzatish", "Faqat matn", "Faqat rasm"], "correctAnswer": "Vaqt davomida o'zgarishni kuzatish"},
+      {"questionText": "Pivot Table da 'Values' maydoni nima?", "options": ["Saralash tartibi", "Hisoblanayotgan qiymatlar (yig'indi, o'rtacha va h.k.)", "Jadval nomi", "Ustun rangi"], "correctAnswer": "Hisoblanayotgan qiymatlar (yig'indi, o'rtacha va h.k.)"},
+      {"questionText": "Qaysi formatda ma'lumot import qilish mumkin?", "options": ["Faqat Excel", "CSV, TXT, XML va boshqa formatlar", "Faqat PDF", "Faqat rasm"], "correctAnswer": "CSV, TXT, XML va boshqa formatlar"}
+    ]
+  }
+]

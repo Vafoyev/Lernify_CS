@@ -1,7 +1,7 @@
-export interface Question {
-  q: string
+export interface Quiz {
+  questionText: string
   options: string[]
-  answer: number
+  correctAnswer: string
 }
 
 export interface Topic {
@@ -10,5 +10,5 @@ export interface Topic {
   description: string
   icon: string
   color: string
-  questions: Question[]
+  quizzes: Quiz[]
 }

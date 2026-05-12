@@ -12,9 +12,9 @@ export default function Curriculum() {
     <div className="space-y-8">
       <div>
         <motion.h1 initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="text-3xl font-extrabold">
-          <span className="cyber-gradient-text">Curriculum</span>
+          <span className="cyber-gradient-text">O'quv rejasi</span>
         </motion.h1>
-        <p className="text-white/40 text-sm mt-1">30 Computer Science topics to master</p>
+        <p className="text-white/40 text-sm mt-1">30 ta mavzuni o'zlashtiring</p>
       </div>
 
       <div className="grid gap-3">

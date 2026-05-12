@@ -1,18 +1,18 @@
 import { motion } from 'framer-motion'
 import { Play, Terminal, FileCode, FolderOpen } from 'lucide-react'
 
-const sampleCode = `// Welcome to Learnify CS Code Lab
+const sampleCode = `// Lernify CS Kod laboratoriyasiga xush kelibsiz
 function fibonacci(n) {
   if (n <= 1) return n;
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-// Calculate first 10 fibonacci numbers
+// Birinchi 10 ta fibonacci sonini hisoblash
 for (let i = 0; i < 10; i++) {
   console.log(\`fib(\${i}) = \${fibonacci(i)}\`);
 }
 
-// Output:
+// Natija:
 // fib(0) = 0
 // fib(1) = 1
 // fib(2) = 1
@@ -24,16 +24,16 @@ for (let i = 0; i < 10; i++) {
 // fib(8) = 21
 // fib(9) = 34`
 
-const files = ['main.js', 'utils.js', 'algorithms.js', 'data-structures.js', 'README.md']
+const files = ['main.js', 'utils.js', 'algoritmlar.js', 'maʼlumot-tuzilmalar.js', 'README.md']
 
 export default function CodeLab() {
   return (
     <div className="space-y-6">
       <div>
         <motion.h1 initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="text-3xl font-extrabold">
-          <span className="cyber-gradient-text">Code Lab</span>
+          <span className="cyber-gradient-text">Kod laboratoriyasi</span>
         </motion.h1>
-        <p className="text-white/40 text-sm mt-1">Practice coding in your browser</p>
+        <p className="text-white/40 text-sm mt-1">Brauzeringizda kod yozishni mashq qiling</p>
       </div>
 
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="glass-panel overflow-hidden">
@@ -48,7 +48,7 @@ export default function CodeLab() {
             <span className="text-xs text-white/30 ml-3 font-mono">main.js</span>
           </div>
           <button className="btn-cyber text-xs py-1.5 px-4 flex items-center gap-1.5">
-            <Play size={12} /> Run
+            <Play size={12} /> Ishga tushirish
           </button>
         </div>
 
@@ -56,7 +56,7 @@ export default function CodeLab() {
           {/* File Explorer */}
           <div className="w-48 border-r border-white/[0.06] p-3 hidden md:block">
             <div className="flex items-center gap-2 text-xs text-white/40 mb-3">
-              <FolderOpen size={14} /> <span className="font-medium">Explorer</span>
+              <FolderOpen size={14} /> <span className="font-medium">Fayllar</span>
             </div>
             {files.map((f, i) => (
               <div key={f} className={`flex items-center gap-2 px-2 py-1.5 rounded text-xs cursor-pointer transition-colors ${i === 0 ? 'bg-white/[0.06] text-white/80' : 'text-white/30 hover:text-white/50'}`}>
@@ -97,7 +97,7 @@ export default function CodeLab() {
             <p className="text-white/40">fib(1) = 1</p>
             <p className="text-white/40">fib(2) = 1</p>
             <p className="text-white/40">fib(3) = 2</p>
-            <p className="text-cyan-400/50">✓ Execution completed in 12ms</p>
+            <p className="text-cyan-400/50">✓ Bajarildi — 12ms</p>
           </div>
         </div>
       </motion.div>

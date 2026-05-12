@@ -1,0 +1,97 @@
+[
+  {
+    "id": 11,
+    "title": "Raqamli tengsizlik tushunchasi va sabablari.",
+    "description": "Sanoati rivojlangan va rivojlanmagan hududlar, ijtimoiy iqtisodiy guruhlar o'rtasidagi raqamli bo'shliq.",
+    "icon": "🌍",
+    "color": "#6366f1",
+    "quizzes": [
+      {"questionText": "Raqamli tengsizlik (Digital divide) nima?", "options": ["Internetning tezligi", "Texnologiyalarga ega bo'lganlar va bo'lmaganlar o'rtasidagi farq", "Kompyuterning narxi", "Dasturiy ta'minot turi"], "correctAnswer": "Texnologiyalarga ega bo'lganlar va bo'lmaganlar o'rtasidagi farq"},
+      {"questionText": "Raqamli tengsizlikning asosiy sababi nima?", "options": ["Iqtisodiy farqlar va infratuzilma yetishmasligi", "Kompyuterlarning rangi", "Elektr energiyasining ko'pligi", "Internetning tezligi"], "correctAnswer": "Iqtisodiy farqlar va infratuzilma yetishmasligi"},
+      {"questionText": "Qaysi hudud raqamli tengsizlikdan ko'proq aziyat chekadi?", "options": ["Yevropa", "Shimoliy Amerika", "Afrika va Janubiy Osiyo qishloq joylari", "Yaponiya"], "correctAnswer": "Afrika va Janubiy Osiyo qishloq joylari"},
+      {"questionText": "Raqamli tengsizlikni kamaytirish uchun nima qilish mumkin?", "options": ["Internetni to'liq o'chirish", "Arzon texnologiyalar va ta'lim dasturlari taqdim etish", "Faqat shaharlarni rivojlantirish", "Kompyuterlarni qimmatlashtirish"], "correctAnswer": "Arzon texnologiyalar va ta'lim dasturlari taqdim etish"},
+      {"questionText": "Samarali texnologiya nima?", "options": ["Faqat qimmat texnologiya", "Kam resurs sarflab katta natija beradigan texnologiya", "Eskirgan texnologiya", "Faqat o'yinlar uchun texnologiya"], "correctAnswer": "Kam resurs sarflab katta natija beradigan texnologiya"},
+      {"questionText": "Ijtimoiy iqtisodiy guruhlar qanday ta'sir ko'rsatadi?", "options": ["Hech qanday ta'sir yo'q", "Yuqori daromadli guruhlar texnologiyalarga ko'proq ega", "Past daromadlilar ko'proq texnologiya ishlatadi", "Hammasi teng"], "correctAnswer": "Yuqori daromadli guruhlar texnologiyalarga ko'proq ega"},
+      {"questionText": "Qaysi omil raqamli tengsizlikka ta'sir qilmaydi?", "options": ["Daromad darajasi", "Geografik joylashuv", "Inson soch rangi", "Ta'lim darajasi"], "correctAnswer": "Inson soch rangi"},
+      {"questionText": "Rivojlanayotgan mamlakatlarda internet penetratsiyasi qanday?", "options": ["Juda yuqori", "Rivojlangan mamlakatlarga nisbatan past", "Butunlay yo'q", "100%"], "correctAnswer": "Rivojlangan mamlakatlarga nisbatan past"},
+      {"questionText": "Raqamli savodxonlik nima?", "options": ["Faqat o'qish va yozish", "Raqamli texnologiyalarni samarali va xavfsiz ishlatish qobiliyati", "Kompyuterni ta'mirlash", "Dasturlash tili"], "correctAnswer": "Raqamli texnologiyalarni samarali va xavfsiz ishlatish qobiliyati"},
+      {"questionText": "Mobil telefonlar raqamli tengsizlikni qanday kamaytiradi?", "options": ["Hech qanday ta'siri yo'q", "Arzon narxda internetga kirish imkoniyatini beradi", "Faqat qo'ng'iroq qilish uchun", "Tengsizlikni oshiradi"], "correctAnswer": "Arzon narxda internetga kirish imkoniyatini beradi"}
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Tarmoq kompyuterlari. LAN, WAN, kliyent-server va P2P tarmoqlari. VPN.",
+    "description": "Kompyuter tarmoqlari turlari, ularning ishlash tamoyillari va Virtual shaxsiy tarmoq haqida.",
+    "icon": "🌐",
+    "color": "#0ea5e9",
+    "quizzes": [
+      {"questionText": "LAN (Local Area Network) nima?", "options": ["Butun dunyo tarmog'i", "Cheklangan hududdagi (masalan, bino ichidagi) tarmoq", "Faqat ikkita kompyuter", "Kosmik tarmoq"], "correctAnswer": "Cheklangan hududdagi (masalan, bino ichidagi) tarmoq"},
+      {"questionText": "WAN (Wide Area Network) nima?", "options": ["Bitta xonadagi tarmoq", "Katta geografik hududni qamrab oluvchi tarmoq", "Faqat simsiz tarmoq", "Printer tarmog'i"], "correctAnswer": "Katta geografik hududni qamrab oluvchi tarmoq"},
+      {"questionText": "Kliyent-server tarmog'ining xususiyati nima?", "options": ["Barcha kompyuterlar teng", "Markaziy server resurslarni boshqaradi, kliyentlar so'rov yuboradi", "Server yo'q", "Faqat ikkita kompyuter"], "correctAnswer": "Markaziy server resurslarni boshqaradi, kliyentlar so'rov yuboradi"},
+      {"questionText": "Peer-to-peer (P2P) tarmoqda nima bo'ladi?", "options": ["Markaziy server bor", "Har bir kompyuter ham kliyent, ham server vazifasini bajaradi", "Faqat bitta kompyuter ishlaydi", "Internet kerak emas"], "correctAnswer": "Har bir kompyuter ham kliyent, ham server vazifasini bajaradi"},
+      {"questionText": "VPN (Virtual Private Network) nima uchun ishlatiladi?", "options": ["Kompyuterni tezlashtirish", "Internet orqali xavfsiz va shifrlangan ulanish yaratish", "Viruslarni tarqatish", "Fayllarni o'chirish"], "correctAnswer": "Internet orqali xavfsiz va shifrlangan ulanish yaratish"},
+      {"questionText": "LAN ning WAN dan farqi nimada?", "options": ["LAN kichik hududda, WAN katta hududda ishlaydi", "Farqi yo'q", "WAN sekinroq", "LAN faqat simsiz"], "correctAnswer": "LAN kichik hududda, WAN katta hududda ishlaydi"},
+      {"questionText": "Kliyent-server tarmog'ining afzalligi nima?", "options": ["Arzon", "Markazlashtirilgan boshqaruv va xavfsizlik", "Server kerak emas", "Faqat 2 ta kompyuter uchun"], "correctAnswer": "Markazlashtirilgan boshqaruv va xavfsizlik"},
+      {"questionText": "P2P tarmog'ining kamchiligi nima?", "options": ["Server kerak", "Xavfsizlik darajasi past va boshqarish qiyin", "Juda qimmat", "Faqat internetda ishlaydi"], "correctAnswer": "Xavfsizlik darajasi past va boshqarish qiyin"},
+      {"questionText": "Internet qaysi tarmoq turiga kiradi?", "options": ["LAN", "PAN", "WAN", "MAN"], "correctAnswer": "WAN"},
+      {"questionText": "VPN qanday ishlaydi?", "options": ["Ma'lumotlarni shifrlaydi va tunnel orqali uzatadi", "Internetni o'chiradi", "Fayllarni o'chiradi", "Kompyuterni sekinlashtiradi"], "correctAnswer": "Ma'lumotlarni shifrlaydi va tunnel orqali uzatadi"}
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Intranet va ekstranet. Internet va uning xususiyatlari. Mobil tarmoqlar.",
+    "description": "Tashkilot ichki tarmoqlari, internetda muloqot qilish va mobil aloqa texnologiyalari.",
+    "icon": "📡",
+    "color": "#10b981",
+    "quizzes": [
+      {"questionText": "Intranet nima?", "options": ["Umumiy internet", "Tashkilot ichidagi shaxsiy tarmoq", "Ijtimoiy tarmoq", "Simsiz tarmoq"], "correctAnswer": "Tashkilot ichidagi shaxsiy tarmoq"},
+      {"questionText": "Ekstranet nima?", "options": ["Faqat ichki tarmoq", "Tashkilotning tashqi hamkorlariga cheklangan kirish huquqini beruvchi tarmoq", "Oddiy internet", "Telefon tarmog'i"], "correctAnswer": "Tashkilotning tashqi hamkorlariga cheklangan kirish huquqini beruvchi tarmoq"},
+      {"questionText": "Intranet va internetning farqi nima?", "options": ["Farqi yo'q", "Intranet faqat tashkilot ichida ishlaydi, internet esa ommaviy", "Internet faqat matn ko'rsatadi", "Intranet tezroq"], "correctAnswer": "Intranet faqat tashkilot ichida ishlaydi, internet esa ommaviy"},
+      {"questionText": "Internetning asosiy xususiyati nima?", "options": ["Faqat bitta kompyuter uchun", "Global tarmoq bo'lib, dunyodagi kompyuterlarni birlashtiradi", "Faqat matn uzatadi", "Pullik emas"], "correctAnswer": "Global tarmoq bo'lib, dunyodagi kompyuterlarni birlashtiradi"},
+      {"questionText": "Mobil tarmoqlar qaysi texnologiyaga asoslangan?", "options": ["Kabel", "Simsiz radio to'lqinlar (3G, 4G, 5G)", "Optik tolalar", "Bluetooth"], "correctAnswer": "Simsiz radio to'lqinlar (3G, 4G, 5G)"},
+      {"questionText": "4G va 5G orasidagi asosiy farq nima?", "options": ["Rangda", "5G tezligi va sig'imi ancha yuqori", "4G yangi texnologiya", "Farqi yo'q"], "correctAnswer": "5G tezligi va sig'imi ancha yuqori"},
+      {"questionText": "Internetda muloqot qilishning qaysi usuli eng mashhur?", "options": ["Pochta jo'natish", "Ijtimoiy tarmoqlar va messenjerlar", "Faks", "Telegraf"], "correctAnswer": "Ijtimoiy tarmoqlar va messenjerlar"},
+      {"questionText": "Ekstranetga misol keltiring.", "options": ["YouTube", "Kompaniyaning yetkazib beruvchilari uchun ochilgan portal", "Google", "Wikipedia"], "correctAnswer": "Kompaniyaning yetkazib beruvchilari uchun ochilgan portal"},
+      {"questionText": "Wi-Fi qaysi tarmoq turiga kiradi?", "options": ["WAN", "Simsiz LAN (WLAN)", "MAN", "PAN"], "correctAnswer": "Simsiz LAN (WLAN)"},
+      {"questionText": "Internetga ulanish uchun nima kerak?", "options": ["Faqat monitor", "Internet provayderi (ISP) va ulanish qurilmasi", "Faqat klaviatura", "Faqat printer"], "correctAnswer": "Internet provayderi (ISP) va ulanish qurilmasi"}
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Video va veb konferensiya. Videokonferensiyaning jamiyatga taʼsiri.",
+    "description": "Masofaviy muloqot texnologiyalari, ularning afzalliklari va jamiyatga ta'siri.",
+    "icon": "🎥",
+    "color": "#f59e0b",
+    "quizzes": [
+      {"questionText": "Videokonferensiya nima?", "options": ["Faqat telefon qo'ng'iroq", "Internet orqali video va audio aloqa yordamida real vaqtda muloqot", "Xat yozish", "Faks jo'natish"], "correctAnswer": "Internet orqali video va audio aloqa yordamida real vaqtda muloqot"},
+      {"questionText": "Videokonferensiyaning afzalligi nima?", "options": ["Sayohat xarajatlarini kamaytiradi", "Internet kerak emas", "Faqat bitta odam ishtirok etadi", "Kompyuter buziladi"], "correctAnswer": "Sayohat xarajatlarini kamaytiradi"},
+      {"questionText": "Veb konferensiya uchun qaysi dastur ishlatiladi?", "options": ["Microsoft Word", "Zoom, Google Meet", "Paint", "Calculator"], "correctAnswer": "Zoom, Google Meet"},
+      {"questionText": "Videokonferensiyaning kamchiligi nima?", "options": ["Tez ishlaydi", "Internet tezligi past bo'lsa, sifat yomonlashadi", "Hech qanday kamchiligi yo'q", "Juda arzon"], "correctAnswer": "Internet tezligi past bo'lsa, sifat yomonlashadi"},
+      {"questionText": "Videokonferensiya jamiyatga qanday ta'sir ko'rsatdi?", "options": ["Hech qanday ta'sir yo'q", "Masofaviy ishlash va ta'limni kengaytirdi", "Odamlarni faqat uyda qoldirdi", "Transportni ko'paytirdi"], "correctAnswer": "Masofaviy ishlash va ta'limni kengaytirdi"},
+      {"questionText": "Videokonferensiya uchun qanday qurilma kerak?", "options": ["Faqat printer", "Kamera, mikrofon va internet", "Faqat klaviatura", "Faqat sichqoncha"], "correctAnswer": "Kamera, mikrofon va internet"},
+      {"questionText": "Ekran almashish (Screen sharing) nima?", "options": ["Monitorni o'chirish", "O'z ekranini boshqa ishtirokchilarga ko'rsatish", "Kompyuterni o'chirish", "Faylni o'chirish"], "correctAnswer": "O'z ekranini boshqa ishtirokchilarga ko'rsatish"},
+      {"questionText": "Videokonferensiya atrof-muhitga qanday ta'sir qiladi?", "options": ["Zararli ta'sir", "Sayohatni kamaytirish orqali karbon chiqindilarini kamaytiradi", "Hech qanday ta'sir yo'q", "Ko'proq benzin sarflanadi"], "correctAnswer": "Sayohatni kamaytirish orqali karbon chiqindilarini kamaytiradi"},
+      {"questionText": "Veb konferensiyada chat funksiyasi nima uchun?", "options": ["O'yin o'ynash", "Yozma xabarlar orqali muloqot qilish", "Kompyuterni o'chirish", "Virus tarqatish"], "correctAnswer": "Yozma xabarlar orqali muloqot qilish"},
+      {"questionText": "Videokonferensiya qaysi sohalarda keng qo'llaniladi?", "options": ["Faqat o'yinlarda", "Ta'lim, biznes va tibbiyot", "Faqat musiqa", "Faqat sport"], "correctAnswer": "Ta'lim, biznes va tibbiyot"}
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Ekspert tizim haqida. Bilimlar bazasi va yakunlovchi mexanizm.",
+    "description": "Sun'iy intellektning bir tarmog'i — ekspert tizimlar, ularning tuzilishi va ishlash prinsipi.",
+    "icon": "🤖",
+    "color": "#8b5cf6",
+    "quizzes": [
+      {"questionText": "Ekspert tizim nima?", "options": ["Oddiy kalkulyator", "Muayyan sohada mutaxassis bilimlarini taqlid qiluvchi dasturiy ta'minot", "Internet brauzeri", "O'yin dasturi"], "correctAnswer": "Muayyan sohada mutaxassis bilimlarini taqlid qiluvchi dasturiy ta'minot"},
+      {"questionText": "Bilimlar bazasi (Knowledge base) nima?", "options": ["Bo'sh fayl", "Ekspert tizimda saqlanadigan qoidalar va faktlar to'plami", "Internet sahifa", "Rasm to'plami"], "correctAnswer": "Ekspert tizimda saqlanadigan qoidalar va faktlar to'plami"},
+      {"questionText": "Yakunlovchi mexanizm (Inference engine) nima qiladi?", "options": ["Fayllarni o'chiradi", "Bilimlar bazasidagi qoidalarni tahlil qilib, xulosalar chiqaradi", "Internetga ulanadi", "Rasmlar chizadi"], "correctAnswer": "Bilimlar bazasidagi qoidalarni tahlil qilib, xulosalar chiqaradi"},
+      {"questionText": "Ekspert tizimning qaysi sohada ishlatilishiga misol bering.", "options": ["Faqat o'yinlarda", "Tibbiy diagnostika, huquqiy maslahat", "Faqat musiqa tinglashda", "Faqat rasm chizishda"], "correctAnswer": "Tibbiy diagnostika, huquqiy maslahat"},
+      {"questionText": "Ekspert tizimning afzalligi nima?", "options": ["Doim noto'g'ri javob beradi", "24/7 ishlaydi va izchil qarorlar qabul qiladi", "Faqat bitta savol javob beradi", "Internet kerak"], "correctAnswer": "24/7 ishlaydi va izchil qarorlar qabul qiladi"},
+      {"questionText": "Ekspert tizimning kamchiligi nima?", "options": ["Juda arzon", "Bilimlar bazasini yaratish va yangilash qiyin va qimmat", "Hech qanday kamchiligi yo'q", "Juda tez ishlaydi"], "correctAnswer": "Bilimlar bazasini yaratish va yangilash qiyin va qimmat"},
+      {"questionText": "Ekspert tizim qaysi sun'iy intellekt sohasiga kiradi?", "options": ["Robototexnika", "Bilimga asoslangan tizimlar", "Kompyuter ko'rishi", "Nutq sintezi"], "correctAnswer": "Bilimga asoslangan tizimlar"},
+      {"questionText": "IF-THEN qoidalari ekspert tizimda qanday ishlatiladi?", "options": ["Rasm chizish uchun", "Agar shart bajarilsa, natija chiqarish uchun", "Musiqa tinglash uchun", "Internet tezligini o'lchash uchun"], "correctAnswer": "Agar shart bajarilsa, natija chiqarish uchun"},
+      {"questionText": "Ekspert tizim inson ekspertini to'liq almashtira oladimi?", "options": ["Ha, to'liq", "Yo'q, faqat tor sohalarda yordam beradi", "Hech qachon ishlatilmaydi", "Faqat o'yinlarda"], "correctAnswer": "Yo'q, faqat tor sohalarda yordam beradi"},
+      {"questionText": "Ekspert tizimda foydalanuvchi interfeysi nima uchun?", "options": ["Tizimni o'chirish", "Foydalanuvchi savol berishi va javob olishi uchun", "Faqat bezash uchun", "Viruslarni tozalash uchun"], "correctAnswer": "Foydalanuvchi savol berishi va javob olishi uchun"}
+    ]
+  }
+]

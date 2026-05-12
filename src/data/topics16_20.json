@@ -1,0 +1,97 @@
+[
+  {
+    "id": 16,
+    "title": "Foydalanuvchi interfeysi. Ekspert tizimlardan foydalanish.",
+    "description": "Ekspert tizimlarning interfeysi va amaliy qo'llanilishi haqida batafsil.",
+    "icon": "🖱️",
+    "color": "#d946ef",
+    "quizzes": [
+      {"questionText": "Foydalanuvchi interfeysi (UI) nima?", "options": ["Kompyuterning ichki qismi", "Foydalanuvchi va dastur o'rtasidagi o'zaro aloqa vositasi", "Elektr kabeli", "Printer"], "correctAnswer": "Foydalanuvchi va dastur o'rtasidagi o'zaro aloqa vositasi"},
+      {"questionText": "Ekspert tizim interfeysida foydalanuvchi nima qiladi?", "options": ["Kod yozadi", "Savollar beradi va tavsiyalar oladi", "Kompyuterni ta'mirlaydi", "Rasm chizadi"], "correctAnswer": "Savollar beradi va tavsiyalar oladi"},
+      {"questionText": "CLI (Command Line Interface) nima?", "options": ["Grafik interfeys", "Buyruqlar qatori orqali boshqariladigan interfeys", "Sensorli ekran", "O'yin interfeysi"], "correctAnswer": "Buyruqlar qatori orqali boshqariladigan interfeys"},
+      {"questionText": "GUI ning CLI dan afzalligi nima?", "options": ["Tezroq ishlaydi", "Ko'rgazmali va foydalanish oson", "Kam xotira talab qiladi", "Faqat dasturchilar uchun"], "correctAnswer": "Ko'rgazmali va foydalanish oson"},
+      {"questionText": "Ekspert tizimdan tibbiyotda qanday foydalaniladi?", "options": ["O'yinlar o'ynash", "Bemorning belgilari asosida kasallikni aniqlash", "Rasm chizish", "Musiqa tinglash"], "correctAnswer": "Bemorning belgilari asosida kasallikni aniqlash"},
+      {"questionText": "Ekspert tizimning tushuntirish moduli nima?", "options": ["Tizimni o'chirish", "Qanday xulosaga kelganini foydalanuvchiga tushuntiradi", "Viruslarni tozalash", "Internetga ulanish"], "correctAnswer": "Qanday xulosaga kelganini foydalanuvchiga tushuntiradi"},
+      {"questionText": "NUI (Natural User Interface) nima?", "options": ["Matn interfeysi", "Imo-ishora, ovoz va sensorli ekran orqali boshqarish", "Faqat klaviatura", "Printer interfeysi"], "correctAnswer": "Imo-ishora, ovoz va sensorli ekran orqali boshqarish"},
+      {"questionText": "Ekspert tizimda bilim muhandisi kim?", "options": ["Foydalanuvchi", "Mutaxassis bilimlarini tizimga kirituvchi shaxs", "Kompyuter sotuvchi", "Internet provayderi"], "correctAnswer": "Mutaxassis bilimlarini tizimga kirituvchi shaxs"},
+      {"questionText": "Yaxshi interfeys dizaynining asosiy tamoyili?", "options": ["Murakkablik", "Soddalik va tushunarlilik", "Ko'p rang ishlatish", "Kichik shrift"], "correctAnswer": "Soddalik va tushunarlilik"},
+      {"questionText": "Menu-ga asoslangan interfeys nima?", "options": ["Faqat ovozli boshqaruv", "Foydalanuvchiga ro'yxatdan tanlash imkoniyatini beruvchi interfeys", "Faqat tugmalar", "Bo'sh ekran"], "correctAnswer": "Foydalanuvchiga ro'yxatdan tanlash imkoniyatini beruvchi interfeys"}
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Maʼlumotlarni qayta ishlash tizimlari. Real vaqt rejimi.",
+    "description": "Ma'lumotlarni qayta ishlash usullari: paketli, real vaqtda va tranzaksion tizimlar.",
+    "icon": "⚙️",
+    "color": "#ea580c",
+    "quizzes": [
+      {"questionText": "Ma'lumotlarni qayta ishlash tizimi nima?", "options": ["O'yin dasturi", "Xom ma'lumotlarni foydali axborotga aylantiradigan tizim", "Printer", "Kamera"], "correctAnswer": "Xom ma'lumotlarni foydali axborotga aylantiradigan tizim"},
+      {"questionText": "Real vaqt (Real-time) tizim nima?", "options": ["Faqat kechasi ishlaydigan tizim", "Ma'lumotlarni darhol qayta ishlab, tezda javob beradigan tizim", "Faqat oylik hisobot tizimi", "Eskirgan tizim"], "correctAnswer": "Ma'lumotlarni darhol qayta ishlab, tezda javob beradigan tizim"},
+      {"questionText": "Real vaqt tizimiga misol keltiring.", "options": ["Oylik ish haqi hisoblash", "Samolyotlarni boshqarish tizimi", "Yillik hisobot", "Kundalik ro'yxat"], "correctAnswer": "Samolyotlarni boshqarish tizimi"},
+      {"questionText": "Paketli (Batch) qayta ishlash nima?", "options": ["Darhol qayta ishlash", "Ma'lumotlarni to'plab, keyin bir vaqtda qayta ishlash", "Faqat bitta ma'lumot bilan ishlash", "Hech narsa qilmaslik"], "correctAnswer": "Ma'lumotlarni to'plab, keyin bir vaqtda qayta ishlash"},
+      {"questionText": "Paketli qayta ishlashga misol?", "options": ["Bank kartasi to'lovi", "Oylik ish haqi hisoblash", "Svetofor boshqaruvi", "GPS navigatsiya"], "correctAnswer": "Oylik ish haqi hisoblash"},
+      {"questionText": "Tranzaksion qayta ishlash nima?", "options": ["Ma'lumotlarni o'chirish", "Har bir amal (tranzaksiya) alohida va tezda qayta ishlanadi", "Faqat rasmlar bilan ishlash", "Kechiktirib ishlash"], "correctAnswer": "Har bir amal (tranzaksiya) alohida va tezda qayta ishlanadi"},
+      {"questionText": "Online tranzaksion tizimga misol?", "options": ["Haftalik hisobot", "Bankomatdan pul yechish", "Yillik audit", "Jurnal chop etish"], "correctAnswer": "Bankomatdan pul yechish"},
+      {"questionText": "Real vaqt tizimining asosiy talabi nima?", "options": ["Arzon bo'lishi", "Tezkor javob vaqti", "Katta ekran", "Ko'p rang"], "correctAnswer": "Tezkor javob vaqti"},
+      {"questionText": "Paketli va real vaqt tizimining farqi?", "options": ["Farqi yo'q", "Paketli kechiktirilgan, real vaqt tizimi darhol qayta ishlaydi", "Real vaqt sekinroq", "Paketli tezroq"], "correctAnswer": "Paketli kechiktirilgan, real vaqt tizimi darhol qayta ishlaydi"},
+      {"questionText": "Qaysi biri real vaqt tizimi emas?", "options": ["Aviachiptalar bron qilish", "Oylik ish haqi hisoblash", "Tibbiy monitoring", "Svetofor boshqaruvi"], "correctAnswer": "Oylik ish haqi hisoblash"}
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Elektron jadval yaratish. Qatorlar va ustunlarni boshqarish.",
+    "description": "Elektron jadval dasturlarida jadval yaratish, formatlash va xavfsizlik masalalari.",
+    "icon": "📊",
+    "color": "#16a34a",
+    "quizzes": [
+      {"questionText": "Elektron jadval (Spreadsheet) nima?", "options": ["Matn muharriri", "Ma'lumotlarni qator va ustunlarda tartiblab, hisoblash imkonini beruvchi dastur", "Rasm dasturi", "Brauzer"], "correctAnswer": "Ma'lumotlarni qator va ustunlarda tartiblab, hisoblash imkonini beruvchi dastur"},
+      {"questionText": "Microsoft Excel da katak manzili qanday yoziladi?", "options": ["1A", "A1 (ustun harfi + qator raqami)", "Qator1", "Katak1"], "correctAnswer": "A1 (ustun harfi + qator raqami)"},
+      {"questionText": "Qator (Row) nima?", "options": ["Vertikal chiziq", "Gorizontal katak qatori, raqam bilan belgilanadi", "Diagramma", "Rasm"], "correctAnswer": "Gorizontal katak qatori, raqam bilan belgilanadi"},
+      {"questionText": "Ustun (Column) nima?", "options": ["Gorizontal chiziq", "Vertikal katak ustuni, harf bilan belgilanadi", "Jadval nomi", "Sahifa raqami"], "correctAnswer": "Vertikal katak ustuni, harf bilan belgilanadi"},
+      {"questionText": "Yangi qator qo'shish uchun nima qilish kerak?", "options": ["Kompyuterni o'chirish", "Sichqonchaning o'ng tugmasini bosib, 'Insert' tanlash", "Faylni o'chirish", "Printerni ulash"], "correctAnswer": "Sichqonchaning o'ng tugmasini bosib, 'Insert' tanlash"},
+      {"questionText": "Elektron jadval xavfsizligini ta'minlash usuli?", "options": ["Faylni o'chirish", "Parol qo'yish va kataklar himoyasi", "Internetni uzish", "Monitorni o'chirish"], "correctAnswer": "Parol qo'yish va kataklar himoyasi"},
+      {"questionText": "Kataklar diapazoniga misol?", "options": ["A1", "A1:C5", "Faqat A", "123"], "correctAnswer": "A1:C5"},
+      {"questionText": "Ustun kengligini o'zgartirish mumkinmi?", "options": ["Yo'q", "Ha, ustun chegarasini siljitish orqali", "Faqat yangi jadval yaratish kerak", "Faqat qator o'zgaradi"], "correctAnswer": "Ha, ustun chegarasini siljitish orqali"},
+      {"questionText": "Elektron jadvalda 'Sheet' nima?", "options": ["Bitta katak", "Jadvalning alohida varaq (ish sahifasi)", "Ustun nomi", "Qator raqami"], "correctAnswer": "Jadvalning alohida varaq (ish sahifasi)"},
+      {"questionText": "Qaysi dastur elektron jadval hisoblanadi?", "options": ["Microsoft Word", "Google Sheets", "Adobe Photoshop", "VLC Player"], "correctAnswer": "Google Sheets"}
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Elektron jadvalni formatlash. Shartli formatlash.",
+    "description": "Jadval ko'rinishini yaxshilash, shartli formatlash va interfeys elementlarini joylashtirish.",
+    "icon": "🎨",
+    "color": "#e11d48",
+    "quizzes": [
+      {"questionText": "Formatlash nima uchun kerak?", "options": ["Ma'lumotni o'chirish", "Jadval ko'rinishini chiroyli va o'qilishi oson qilish", "Kompyuterni tezlashtirish", "Internet tezligini oshirish"], "correctAnswer": "Jadval ko'rinishini chiroyli va o'qilishi oson qilish"},
+      {"questionText": "Shartli formatlash (Conditional Formatting) nima?", "options": ["Barcha kataklar bir xil rang", "Ma'lum shartga ko'ra kataklar avtomatik formatlanadi", "Jadval o'chiriladi", "Faqat matn rangi o'zgaradi"], "correctAnswer": "Ma'lum shartga ko'ra kataklar avtomatik formatlanadi"},
+      {"questionText": "Shartli formatlashga misol?", "options": ["Barcha kataklar oq", "Baho 3 dan past bo'lsa katak qizil rangga bo'yaladi", "Hech narsa o'zgarmaydi", "Faqat shrift o'zgaradi"], "correctAnswer": "Baho 3 dan past bo'lsa katak qizil rangga bo'yaladi"},
+      {"questionText": "Katakni birlashtirish (Merge) nima?", "options": ["Katakni o'chirish", "Bir nechta katakni bitta katta katakga aylantirish", "Yangi jadval yaratish", "Ustun qo'shish"], "correctAnswer": "Bir nechta katakni bitta katta katakga aylantirish"},
+      {"questionText": "Chegaralar (Borders) nima uchun ishlatiladi?", "options": ["Ma'lumotni o'chirish", "Kataklar atrofiga chiziq qo'yib, ko'rinishni yaxshilash", "Internetga ulanish", "Printer sozlash"], "correctAnswer": "Kataklar atrofiga chiziq qo'yib, ko'rinishni yaxshilash"},
+      {"questionText": "Son formatini o'zgartirish nimani anglatadi?", "options": ["Sonni o'chirish", "Sonni valyuta, foiz yoki sana ko'rinishida ko'rsatish", "Sonni matnga aylantirish", "Hech narsa"], "correctAnswer": "Sonni valyuta, foiz yoki sana ko'rinishida ko'rsatish"},
+      {"questionText": "Matnni katakda markazlashtirish uchun?", "options": ["Delete tugmasini bosish", "Alignment sozlamalaridan Center tanlash", "Faylni yopish", "Yangi fayl ochish"], "correctAnswer": "Alignment sozlamalaridan Center tanlash"},
+      {"questionText": "Shrift o'lchamini o'zgartirish nima?", "options": ["Matn hajmini kattalashtirish yoki kichiklashtirish", "Matnni o'chirish", "Rang o'zgartirish", "Jadval o'chirish"], "correctAnswer": "Matn hajmini kattalashtirish yoki kichiklashtirish"},
+      {"questionText": "Panel (Pane) ni mahkamlash nima uchun?", "options": ["Panelni o'chirish", "Saralaganingizda sarlavha qatorini ekranda qoldirish", "Kompyuterni o'chirish", "Yangi oyna ochish"], "correctAnswer": "Saralaganingizda sarlavha qatorini ekranda qoldirish"},
+      {"questionText": "Wrap Text nima qiladi?", "options": ["Matnni o'chiradi", "Uzun matnni katak ichida ko'p qatorga bo'lib ko'rsatadi", "Jadval o'chiradi", "Rasm qo'shadi"], "correctAnswer": "Uzun matnni katak ichida ko'p qatorga bo'lib ko'rsatadi"}
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Formula va funksiyalarni yaratish. Absolyut va nisbiy murojaat.",
+    "description": "Elektron jadvallarda formulalar, funksiyalar va katak murojaatlari bilan ishlash.",
+    "icon": "🔢",
+    "color": "#7c3aed",
+    "quizzes": [
+      {"questionText": "Excel da formula qaysi belgi bilan boshlanadi?", "options": ["#", "= (teng belgisi)", "@", "$"], "correctAnswer": "= (teng belgisi)"},
+      {"questionText": "=A1+B1 formulasi nima qiladi?", "options": ["A1 va B1 kataklar qiymatlarini qo'shadi", "A1 ni o'chiradi", "B1 ni nusxalaydi", "Hech narsa"], "correctAnswer": "A1 va B1 kataklar qiymatlarini qo'shadi"},
+      {"questionText": "Nisbiy murojaat (Relative reference) nima?", "options": ["O'zgarmas manzil", "Formula nusxalanganda katak manzili avtomatik o'zgaradi", "Faqat bitta katak", "Doim A1"], "correctAnswer": "Formula nusxalanganda katak manzili avtomatik o'zgaradi"},
+      {"questionText": "Absolyut murojaat qanday belgilanadi?", "options": ["A1", "$A$1 (dollar belgisi bilan)", "#A#1", "@A@1"], "correctAnswer": "$A$1 (dollar belgisi bilan)"},
+      {"questionText": "Absolyut murojaat nima uchun kerak?", "options": ["Katakni o'chirish", "Formula nusxalanganda manzil o'zgarmasin deb", "Rang o'zgartirish", "Jadval o'chirish"], "correctAnswer": "Formula nusxalanganda manzil o'zgarmasin deb"},
+      {"questionText": "SUM funksiyasi nima qiladi?", "options": ["O'rtacha hisoblaydi", "Belgilangan kataklar qiymatlarini yig'adi", "Eng katta sonni topadi", "Sanaydi"], "correctAnswer": "Belgilangan kataklar qiymatlarini yig'adi"},
+      {"questionText": "AVERAGE funksiyasi nima?", "options": ["Yig'indi", "O'rtacha qiymatni hisoblaydi", "Eng kichik son", "Soni"], "correctAnswer": "O'rtacha qiymatni hisoblaydi"},
+      {"questionText": "Nomlangan katak (Named range) nima?", "options": ["Katakka maxsus nom berish, masalan 'Narx'", "Katakni o'chirish", "Rasm qo'shish", "Faylga nom berish"], "correctAnswer": "Katakka maxsus nom berish, masalan 'Narx'"},
+      {"questionText": "=B2*$C$1 formulasida qaysi qism absolyut?", "options": ["B2", "$C$1", "Ikkalasi", "Hech qaysi"], "correctAnswer": "$C$1"},
+      {"questionText": "MAX funksiyasi nima qiladi?", "options": ["Eng kichik sonni topadi", "Belgilangan oraliqdan eng katta sonni topadi", "O'rtachani hisoblaydi", "Yig'indini hisoblaydi"], "correctAnswer": "Belgilangan oraliqdan eng katta sonni topadi"}
+    ]
+  }
+]

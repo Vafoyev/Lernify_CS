@@ -2,16 +2,16 @@ import { motion } from 'framer-motion'
 import { Crown, Medal, TrendingUp } from 'lucide-react'
 
 const mockUsers = [
-  { name: 'Alex Chen', xp: 2850, level: 29, avatar: '🧑‍💻', topics: 28 },
-  { name: 'Sarah Kim', xp: 2640, level: 27, avatar: '👩‍💻', topics: 26 },
-  { name: 'David Park', xp: 2200, level: 23, avatar: '👨‍💻', topics: 22 },
-  { name: 'Emma Wilson', xp: 1980, level: 20, avatar: '👩‍🎓', topics: 19 },
-  { name: 'James Lee', xp: 1750, level: 18, avatar: '🧑‍🎓', topics: 17 },
-  { name: 'Maria Garcia', xp: 1500, level: 16, avatar: '👩‍🔬', topics: 15 },
-  { name: 'Tom Brown', xp: 1200, level: 13, avatar: '👨‍🔬', topics: 12 },
-  { name: 'Lisa Wang', xp: 950, level: 10, avatar: '👩‍💼', topics: 9 },
-  { name: 'You', xp: 0, level: 1, avatar: '🎯', topics: 0, isYou: true },
-  { name: 'Ryan Scott', xp: 400, level: 5, avatar: '🧑‍💼', topics: 4 },
+  { name: 'Aziz Karimov', xp: 2850, level: 29, avatar: '🧑‍💻', topics: 28 },
+  { name: 'Madina Rahimova', xp: 2640, level: 27, avatar: '👩‍💻', topics: 26 },
+  { name: 'Sardor Toshev', xp: 2200, level: 23, avatar: '👨‍💻', topics: 22 },
+  { name: 'Nilufar Aliyeva', xp: 1980, level: 20, avatar: '👩‍🎓', topics: 19 },
+  { name: 'Jasur Nazarov', xp: 1750, level: 18, avatar: '🧑‍🎓', topics: 17 },
+  { name: 'Dilorom Umarova', xp: 1500, level: 16, avatar: '👩‍🔬', topics: 15 },
+  { name: 'Bobur Xasanov', xp: 1200, level: 13, avatar: '👨‍🔬', topics: 12 },
+  { name: 'Zulfiya Ergasheva', xp: 950, level: 10, avatar: '👩‍💼', topics: 9 },
+  { name: 'Siz', xp: 0, level: 1, avatar: '🎯', topics: 0, isYou: true },
+  { name: 'Otabek Mirzayev', xp: 400, level: 5, avatar: '🧑‍💼', topics: 4 },
 ]
 
 export default function Leaderboard() {
@@ -21,9 +21,9 @@ export default function Leaderboard() {
     <div className="space-y-8">
       <div>
         <motion.h1 initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="text-3xl font-extrabold">
-          <span className="cyber-gradient-text">Leaderboard</span>
+          <span className="cyber-gradient-text">Reyting</span>
         </motion.h1>
-        <p className="text-white/40 text-sm mt-1">Compete with other learners</p>
+        <p className="text-white/40 text-sm mt-1">Boshqa o'quvchilar bilan raqobatlashing</p>
       </div>
 
       {/* Top 3 */}
@@ -48,7 +48,7 @@ export default function Leaderboard() {
       {/* Full List */}
       <div className="glass-panel overflow-hidden">
         <div className="grid grid-cols-[50px_1fr_80px_80px_60px] gap-2 px-5 py-3 border-b border-white/[0.06] text-xs text-white/30 font-medium">
-          <span>Rank</span><span>Student</span><span>XP</span><span>Topics</span><span>Lvl</span>
+          <span>O'rin</span><span>O'quvchi</span><span>XP</span><span>Mavzu</span><span>Drj</span>
         </div>
         {mockUsers.map((u, i) => (
           <motion.div

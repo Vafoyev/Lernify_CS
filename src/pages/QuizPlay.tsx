@@ -19,20 +19,20 @@ export default function QuizPlay() {
   const [answers, setAnswers] = useState<(number | null)[]>([])
 
   useEffect(() => {
-    if (topic) setAnswers(new Array(topic.questions.length).fill(null))
+    if (topic) setAnswers(new Array(topic.quizzes.length).fill(null))
   }, [topic])
 
   if (!topic) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] gap-4">
-        <p className="text-white/40">Topic not found</p>
-        <button onClick={() => navigate('/quizzes')} className="btn-cyber">Back to Quizzes</button>
+        <p className="text-white/40">Mavzu topilmadi</p>
+        <button onClick={() => navigate('/quizzes')} className="btn-cyber">Testlarga qaytish</button>
       </div>
     )
   }
 
-  const q = topic.questions[current]
-  const total = topic.questions.length
+  const q = topic.quizzes[current]
+  const total = topic.quizzes.length
   const optionLetters = ['A', 'B', 'C', 'D']
 
   const handleSelect = (idx: number) => {
@@ -46,7 +46,7 @@ export default function QuizPlay() {
     const newAnswers = [...answers]
     newAnswers[current] = selected
     setAnswers(newAnswers)
-    if (selected === q.answer) setScore(s => s + 1)
+    if (q.options[selected] === q.correctAnswer) setScore(s => s + 1)
   }
 
   const handleNext = () => {
@@ -56,7 +56,7 @@ export default function QuizPlay() {
       setConfirmed(false)
     } else {
       setFinished(true)
-      const finalScore = score + (selected === q.answer && confirmed ? 0 : 0)
+      const finalScore = score + (selected !== null && q.options[selected] === q.correctAnswer && confirmed ? 0 : 0)
       completeTopic(topic.id, score, total)
     }
   }
@@ -79,19 +79,19 @@ export default function QuizPlay() {
           <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: 'spring', delay: 0.2 }}>
             <Trophy size={64} className={`mx-auto mb-4 ${pct >= 70 ? 'text-yellow-400' : 'text-white/30'}`} />
           </motion.div>
-          <h2 className="text-2xl font-bold text-white mb-2">Quiz Complete!</h2>
+          <h2 className="text-2xl font-bold text-white mb-2">Test yakunlandi!</h2>
           <p className="text-white/40 text-sm mb-6">{topic.title}</p>
           <div className="text-5xl font-extrabold mb-2">
             <span className={pct >= 70 ? 'text-green-400' : pct >= 40 ? 'text-yellow-400' : 'text-red-400'}>{score}</span>
             <span className="text-white/20">/{total}</span>
           </div>
-          <p className="text-white/30 text-sm mb-2">{pct}% correct</p>
+          <p className="text-white/30 text-sm mb-2">{pct}% to'g'ri</p>
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="text-cyan-400 text-sm font-medium mb-6">
-            +{xpEarned} XP earned!
+            +{xpEarned} XP qo'shildi!
           </motion.p>
           <div className="flex gap-3 justify-center">
-            <button onClick={handleRestart} className="btn-cyber flex items-center gap-2"><RotateCcw size={14} /> Retry</button>
-            <button onClick={() => navigate('/quizzes')} className="btn-primary">Back to Quizzes</button>
+            <button onClick={handleRestart} className="btn-cyber flex items-center gap-2"><RotateCcw size={14} /> Qayta topshirish</button>
+            <button onClick={() => navigate('/quizzes')} className="btn-primary">Testlarga qaytish</button>
           </div>
         </div>
       </motion.div>
@@ -103,7 +103,7 @@ export default function QuizPlay() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <button onClick={() => navigate('/quizzes')} className="flex items-center gap-2 text-white/40 hover:text-white/70 text-sm transition-colors">
-          <ArrowLeft size={16} /> Back
+          <ArrowLeft size={16} /> Orqaga
         </button>
         <span className="text-xs text-white/30 font-mono">{current + 1} / {total}</span>
       </div>
@@ -133,7 +133,7 @@ export default function QuizPlay() {
           exit={{ opacity: 0, x: -30 }}
           className="glass-panel p-8"
         >
-          <h2 className="text-lg font-semibold text-white mb-6 leading-relaxed">{q.q}</h2>
+          <h2 className="text-lg font-semibold text-white mb-6 leading-relaxed">{q.questionText}</h2>
           <div className="grid gap-3">
             {q.options.map((opt, idx) => {
               let cls = 'p-4 rounded-xl border text-sm font-medium transition-all duration-300 cursor-pointer text-left w-full flex items-center gap-3 '
@@ -142,7 +142,7 @@ export default function QuizPlay() {
                   ? 'bg-white/[0.08] border-cyan-400/40 text-white shadow-[0_0_20px_rgba(0,240,255,0.1)]'
                   : 'bg-white/[0.02] border-white/[0.06] text-white/60 hover:bg-white/[0.05] hover:border-white/[0.12]'
               } else {
-                if (idx === q.answer) cls += 'bg-green-500/10 border-green-400/40 text-green-300'
+                if (q.options[idx] === q.correctAnswer) cls += 'bg-green-500/10 border-green-400/40 text-green-300'
                 else if (idx === selected) cls += 'bg-red-500/10 border-red-400/40 text-red-300'
                 else cls += 'bg-white/[0.01] border-white/[0.04] text-white/30'
               }
@@ -152,8 +152,8 @@ export default function QuizPlay() {
                     {optionLetters[idx]}
                   </span>
                   <span>{opt}</span>
-                  {confirmed && idx === q.answer && <Check size={16} className="ml-auto text-green-400" />}
-                  {confirmed && idx === selected && idx !== q.answer && <X size={16} className="ml-auto text-red-400" />}
+                  {confirmed && q.options[idx] === q.correctAnswer && <Check size={16} className="ml-auto text-green-400" />}
+                  {confirmed && idx === selected && q.options[idx] !== q.correctAnswer && <X size={16} className="ml-auto text-red-400" />}
                 </motion.button>
               )
             })}
@@ -163,14 +163,14 @@ export default function QuizPlay() {
 
       {/* Actions */}
       <div className="flex justify-between">
-        <div className="text-sm text-white/30">Score: <span className="text-white/70 font-bold">{score}</span></div>
+        <div className="text-sm text-white/30">Ball: <span className="text-white/70 font-bold">{score}</span></div>
         {!confirmed ? (
           <button onClick={handleConfirm} disabled={selected === null} className="btn-primary disabled:opacity-30 disabled:cursor-not-allowed flex items-center gap-2">
-            <Check size={14} /> Confirm
+            <Check size={14} /> Tasdiqlash
           </button>
         ) : (
           <button onClick={handleNext} className="btn-primary flex items-center gap-2">
-            {current < total - 1 ? <><ArrowRight size={14} /> Next</> : <><Trophy size={14} /> Finish</>}
+            {current < total - 1 ? <><ArrowRight size={14} /> Keyingi</> : <><Trophy size={14} /> Yakunlash</>}
           </button>
         )}
       </div>

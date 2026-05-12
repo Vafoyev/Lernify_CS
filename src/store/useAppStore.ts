@@ -8,7 +8,29 @@ export interface QuizResult {
   completedAt: string
 }
 
+export interface Teacher {
+  id: number
+  name: string
+  subject: string
+  avatar: string
+}
+
+export interface UserData {
+  email: string
+  firstName: string
+  lastName: string
+  teacherId: number
+}
+
 interface AppState {
+  // Auth
+  isLoggedIn: boolean
+  user: UserData | null
+  teachers: Teacher[]
+  login: (data: UserData) => void
+  logout: () => void
+
+  // Progress
   xp: number
   level: number
   streak: number
@@ -23,6 +45,13 @@ interface AppState {
   updateStreak: () => void
   resetProgress: () => void
 }
+
+const DEFAULT_TEACHERS: Teacher[] = [
+  { id: 1, name: 'Xurmat', subject: 'Informatika va AT', avatar: '👨‍🏫' },
+  { id: 2, name: 'Hasanboy', subject: 'Informatika va AT', avatar: '👨‍🏫' },
+  { id: 3, name: 'Muhammad', subject: 'Informatika va AT', avatar: '👨‍🏫' },
+  { id: 4, name: 'Soliyajon', subject: 'Informatika va AT', avatar: '👩‍🏫' },
+]
 
 const ACHIEVEMENTS_MAP: Record<string, { xpThreshold?: number; topicsThreshold?: number }> = {
   first_quiz: {},
@@ -42,6 +71,20 @@ const ACHIEVEMENTS_MAP: Record<string, { xpThreshold?: number; topicsThreshold?:
 export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
+      // Auth
+      isLoggedIn: false,
+      user: null,
+      teachers: DEFAULT_TEACHERS,
+
+      login: (data: UserData) => {
+        set({ isLoggedIn: true, user: data })
+      },
+
+      logout: () => {
+        set({ isLoggedIn: false, user: null })
+      },
+
+      // Progress
       xp: 0,
       level: 1,
       streak: 0,
@@ -155,4 +198,4 @@ export const useAppStore = create<AppState>()(
   )
 )
 
-export { ACHIEVEMENTS_MAP }
+export { ACHIEVEMENTS_MAP, DEFAULT_TEACHERS }
